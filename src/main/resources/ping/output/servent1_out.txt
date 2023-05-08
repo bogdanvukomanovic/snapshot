@@ -1,0 +1,6 @@
+18:17:43 - Starting servent [1|localhost|1200]
+18:17:43 - Pausing for 2000 ms
+18:17:44 - Sending message [1|0|PING|PING|0]
+18:17:45 - Pausing for 2000 ms
+18:17:45 - Got message [0|0|PONG|PONG|1]
+18:17:47 - Stopping...
