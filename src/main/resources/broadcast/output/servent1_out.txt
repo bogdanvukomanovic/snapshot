@@ -1,0 +1,14 @@
+22:24:45 - Starting servent [1|localhost:1200]
+22:24:45 - My info: [1|localhost:1200]
+22:24:45 - Neighbours: 
+22:24:45 - 0 3 
+22:24:45 - Pausing for 15000 ms
+22:24:46 - Got message [0|0|MSG|BROADCAST|1]
+22:24:46 - Got MSG from [0|localhost:1100] originally broadcast by [0|localhost:1100]
+22:24:46 - Rebroadcasting: 1
+22:24:47 - Sending message [1|0|MSG|BROADCAST|3]
+22:24:48 - Sending message [1|0|MSG|BROADCAST|0]
+22:24:49 - Got message [3|0|MSG|BROADCAST|1]
+22:24:49 - Got MSG from [3|localhost:1400] originally broadcast by [0|localhost:1100]
+22:24:49 - Already had this. No rebroadcast.
+22:25:00 - Stopping...

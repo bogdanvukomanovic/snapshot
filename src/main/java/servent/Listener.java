@@ -5,6 +5,7 @@ import app.Configuration;
 import app.Logger;
 import message.Message;
 import message.handler.MessageHandler;
+import message.handler.BroadcastHandler;
 import message.handler.NullHandler;
 import message.util.MessageUtil;
 
@@ -48,7 +49,9 @@ public class Listener implements Runnable, Cancellable {
                 MessageHandler messageHandler = new NullHandler(clientMessage);
 
                 switch (clientMessage.getMessageType()) {
-                    /* ... */
+                    case BROADCAST:
+                        messageHandler = new BroadcastHandler(clientMessage);
+                        break;
                 }
 
                 service.submit(messageHandler);
