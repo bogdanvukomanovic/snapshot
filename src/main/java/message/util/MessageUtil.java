@@ -1,7 +1,7 @@
-package servent.message.util;
+package message.util;
 
 import app.Logger;
-import servent.message.Message;
+import message.Message;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

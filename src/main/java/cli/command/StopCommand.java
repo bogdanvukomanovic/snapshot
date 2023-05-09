@@ -4,15 +4,15 @@ package cli.command;
 import app.Logger;
 import cli.CLI;
 
-import servent.ServentListener;
+import servent.Listener;
 
 
 public class StopCommand implements Command {
 
 	private CLI cli;
-	private ServentListener listener;
+	private Listener listener;
 	
-	public StopCommand(CLI cli, ServentListener listener) {
+	public StopCommand(CLI cli, Listener listener) {
 		this.cli = cli;
 		this.listener = listener;
 	}

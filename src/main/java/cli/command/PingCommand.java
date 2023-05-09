@@ -3,9 +3,9 @@ package cli.command;
 import app.Configuration;
 import app.Logger;
 import servent.Servent;
-import servent.message.Message;
-import servent.message.PingMessage;
-import servent.message.util.MessageUtil;
+import message.Message;
+import message.PingMessage;
+import message.util.MessageUtil;
 
 public class PingCommand implements Command {
 

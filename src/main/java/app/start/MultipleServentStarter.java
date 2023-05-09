@@ -15,7 +15,7 @@ public class MultipleServentStarter {
 
         String test = "ping";
 
-        start(test);
+        start("./src/main/resources/" + test);
 
     }
 
@@ -48,11 +48,11 @@ public class MultipleServentStarter {
         }
     }
 
-    private static void start(String test) {
+    private static void start(String path) {
 
         List<Process> processes = new ArrayList<>();
 
-        Configuration.load("./src/main/resources/" + test + "/servent_list.properties");
+        Configuration.load(path + "/servent_list.properties");
 
         Logger.timestampedStandardPrint("Starting multiple servent runner.");
         Logger.timestampedStandardPrint("If servents do not finish on their own type \"stop\" to finish them.");
@@ -61,11 +61,11 @@ public class MultipleServentStarter {
 
             try {
 
-                ProcessBuilder builder = new ProcessBuilder("java", "-cp", "target/classes", "app.start.SingleServentStarter", "./src/main/resources/" + test + "/servent_list.properties", String.valueOf(i));
+                ProcessBuilder builder = new ProcessBuilder("java", "-cp", "target/classes", "app.start.SingleServentStarter", path + "/servent_list.properties", String.valueOf(i));
 
-                builder.redirectError(new File(test + "/error/servent" + i + "_err.txt"));
-                builder.redirectInput(new File(test + "/input/servent" + i + "_in.txt"));
-                builder.redirectOutput(new File(test + "/output/servent" + i + "_out.txt"));
+                builder.redirectError(new File(path + "/error/servent" + i + "_err.txt"));
+                builder.redirectInput(new File(path + "/input/servent" + i + "_in.txt"));
+                builder.redirectOutput(new File(path + "/output/servent" + i + "_out.txt"));
 
                 Process p = builder.start();
                 processes.add(p);

@@ -1,8 +1,8 @@
-package servent.handler;
+package message.handler;
 
 import app.Logger;
-import servent.message.Message;
-import servent.message.MessageType;
+import message.Message;
+import message.MessageType;
 
 public class PongHandler implements MessageHandler {
 

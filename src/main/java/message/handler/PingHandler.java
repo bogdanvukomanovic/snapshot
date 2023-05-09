@@ -1,10 +1,10 @@
-package servent.handler;
+package message.handler;
 
 import app.Logger;
-import servent.message.Message;
-import servent.message.MessageType;
-import servent.message.PongMessage;
-import servent.message.util.MessageUtil;
+import message.Message;
+import message.MessageType;
+import message.PongMessage;
+import message.util.MessageUtil;
 
 public class PingHandler implements MessageHandler {
 

@@ -3,12 +3,12 @@ package servent;
 import app.Cancellable;
 import app.Configuration;
 import app.Logger;
-import servent.handler.MessageHandler;
-import servent.handler.NullHandler;
-import servent.handler.PingHandler;
-import servent.handler.PongHandler;
-import servent.message.Message;
-import servent.message.util.MessageUtil;
+import message.Message;
+import message.handler.MessageHandler;
+import message.handler.NullHandler;
+import message.handler.PingHandler;
+import message.handler.PongHandler;
+import message.util.MessageUtil;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -17,7 +17,7 @@ import java.net.SocketTimeoutException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ServentListener implements Runnable, Cancellable {
+public class Listener implements Runnable, Cancellable {
 
     private volatile boolean working = true;
     private final ExecutorService service = Executors.newWorkStealingPool();

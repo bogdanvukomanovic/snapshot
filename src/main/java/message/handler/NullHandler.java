@@ -1,7 +1,7 @@
-package servent.handler;
+package message.handler;
 
 import app.Logger;
-import servent.message.Message;
+import message.Message;
 
 public class NullHandler implements MessageHandler {
 

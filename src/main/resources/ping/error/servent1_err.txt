@@ -1,1 +1,1 @@
-18:17:45 - PINGing a servent that is not our neighbor :( 2
+17:12:36 - Trying to ping servent 2 that is not our neighbour.

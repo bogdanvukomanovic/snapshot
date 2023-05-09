@@ -3,7 +3,7 @@ package app.start;
 import app.Configuration;
 import app.Logger;
 import cli.CLI;
-import servent.ServentListener;
+import servent.Listener;
 
 public class SingleServentStarter {
 
@@ -21,11 +21,11 @@ public class SingleServentStarter {
 
         Logger.timestampedStandardPrint("Starting servent " + Configuration.SERVENT);
 
-        ServentListener serventListener = new ServentListener();
-        Thread serventListenerThread = new Thread(serventListener);
-        serventListenerThread.start();
+        Listener listener = new Listener();
+        Thread listenerThread = new Thread(listener);
+        listenerThread.start();
 
-        Thread CLIThread = new Thread(new CLI(serventListener));
+        Thread CLIThread = new Thread(new CLI(listener));
         CLIThread.start();
 
     }

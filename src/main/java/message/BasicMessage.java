@@ -1,4 +1,4 @@
-package servent.message;
+package message;
 
 import app.Configuration;
 import app.Logger;

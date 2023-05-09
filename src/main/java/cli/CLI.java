@@ -3,7 +3,7 @@ package cli;
 import app.Cancellable;
 import app.Logger;
 import cli.command.*;
-import servent.ServentListener;
+import servent.Listener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class CLI implements Runnable, Cancellable {
 
     private final List<Command> commands;
 
-    public CLI(ServentListener listener) {
+    public CLI(Listener listener) {
 
         this.commands = new ArrayList<>();
 
