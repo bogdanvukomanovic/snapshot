@@ -1,3 +1,0 @@
-17:12:34 - Starting servent [2|localhost:1300]
-17:12:34 - Pausing for 10000 ms
-17:12:44 - Stopping...

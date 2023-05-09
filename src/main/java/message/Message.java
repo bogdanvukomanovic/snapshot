@@ -4,15 +4,18 @@ import servent.Servent;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Map;
 
 public interface Message extends Serializable {
 
-    Servent getOriginalSender();
-    List<Servent> getRoute();
-    Servent getReceiver();
+    int getID();
     MessageType getMessageType();
-    String getMessageText();
-    int getMessageID();
+    Servent getSource();
+    Servent getSender();
+    Servent getReceiver();
+    List<Servent> getRoute();
+    String getBody();
+    Map<Integer, Integer> getVectorClock();
     Message makeMeASender();
     Message changeReceiver(Integer newReceiverID);
 

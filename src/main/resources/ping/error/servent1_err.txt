@@ -1,1 +1,0 @@
-17:12:36 - Trying to ping servent 2 that is not our neighbour.

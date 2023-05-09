@@ -21,7 +21,6 @@ public class CLI implements Runnable, Cancellable {
 
         commands.add(new InfoCommand());
         commands.add(new PauseCommand());
-        commands.add(new PingCommand());
         commands.add(new StopCommand(this, listener));
 
     }

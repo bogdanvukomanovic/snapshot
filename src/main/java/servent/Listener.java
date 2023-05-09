@@ -6,8 +6,6 @@ import app.Logger;
 import message.Message;
 import message.handler.MessageHandler;
 import message.handler.NullHandler;
-import message.handler.PingHandler;
-import message.handler.PongHandler;
 import message.util.MessageUtil;
 
 import java.io.IOException;
@@ -50,12 +48,7 @@ public class Listener implements Runnable, Cancellable {
                 MessageHandler messageHandler = new NullHandler(clientMessage);
 
                 switch (clientMessage.getMessageType()) {
-                    case PING:
-                        messageHandler = new PingHandler(clientMessage);
-                        break;
-                    case PONG:
-                        messageHandler = new PongHandler(clientMessage);
-                        break;
+                    /* ... */
                 }
 
                 service.submit(messageHandler);
