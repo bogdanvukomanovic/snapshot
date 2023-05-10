@@ -1,0 +1,5 @@
+info
+broadcast MSG_1
+broadcast MSG_2
+pause 15000
+stop

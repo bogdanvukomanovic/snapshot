@@ -4,6 +4,7 @@ import app.Configuration;
 import app.Logger;
 import message.Message;
 import message.util.MessageUtil;
+import servent.History;
 import servent.Servent;
 
 import java.util.Collections;
@@ -26,17 +27,24 @@ public class BroadcastHandler implements MessageHandler {
         Servent source = message.getSource();
         Servent sender = message.getSender();
 
-        Logger.timestampedStandardPrint("Got " + message.getBody() + " from " + sender + " originally broadcast by " + source);
-
         if (source.ID() == Configuration.SERVENT.ID()) {
             Logger.timestampedStandardPrint("Got own message back. No rebroadcast.");
         } else {
 
             if (received.add(message)) {
 
+                Logger.timestampedStandardPrint("Added to pending " + message.getBody() + " from " + sender + " originally broadcast by " + source);
+
+                History.addPendingMessage(message);
+                History.checkPendingMessages(); /* TODO: Maybe move after rebroadcasting. */
+
                 for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+
                     Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
-                    MessageUtil.sendMessage(message.changeReceiver(neighbour).makeMeASender());
+
+                    MessageUtil.sendMessage(message.makeMeASender()
+                                                   .changeReceiver(neighbour));
+
                 }
 
             } else {

@@ -22,4 +22,8 @@ public class Logger {
         System.err.println(timeFormat.format(now) + " - " + message);
     }
 
+    public static void newLineBarrierPrint(String message) {
+        System.out.println("\n" + message + "\n");
+    }
+
 }

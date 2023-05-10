@@ -1,5 +1,6 @@
 package app;
 
+import servent.History;
 import servent.Servent;
 
 import java.io.FileInputStream;
@@ -40,6 +41,8 @@ public class Configuration {
 
             SERVENTS.add(i, new Servent(i, address, port, collectNeighbours(properties, i)));
         }
+
+        History.initializeVectorClock(SERVENT_COUNT);
 
     }
 

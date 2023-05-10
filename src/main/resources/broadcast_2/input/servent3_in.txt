@@ -1,4 +1,4 @@
 info
-broadcast MSG
 pause 15000
+print_causal
 stop

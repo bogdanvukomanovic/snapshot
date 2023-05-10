@@ -5,8 +5,8 @@ import app.Logger;
 import message.Message;
 import message.BroadcastMessage;
 import message.util.MessageUtil;
+import servent.History;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class BroadcastCommand implements Command {
@@ -26,16 +26,18 @@ public class BroadcastCommand implements Command {
         }
 
         String body = args;
-        Map<Integer, Integer> vectorClock = new HashMap<>();
+
+        Map<Integer, Integer> vectorClock = History.copyVectorClock();
 
         Message message = new BroadcastMessage(Configuration.SERVENT, null, body, vectorClock);
+        History.commitMessage(message);
+
+        Logger.newLineBarrierPrint("> " + History.getVectorClock());
 
         for (Integer neighbor : Configuration.SERVENT.neighbours()) {
-
-            message = message.changeReceiver(neighbor);
-
-            MessageUtil.sendMessage(message);
+            MessageUtil.sendMessage(message.changeReceiver(neighbor));
         }
+
     }
 
 }

@@ -14,7 +14,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class History {
 
     private static Map<Integer, Integer> vectorClock = new ConcurrentHashMap<>();
-    private static List<Message> committedCausalMessageList = new CopyOnWriteArrayList<>();
+    private static List<Message> committedMessages = new CopyOnWriteArrayList<>();
     private static Queue<Message> pendingMessages = new ConcurrentLinkedQueue<>();
     private static final Object pendingMessagesLock = new Object();
 
@@ -26,6 +26,17 @@ public class History {
 
     }
 
+    public static Map<Integer, Integer> copyVectorClock() {
+
+        Map<Integer, Integer> copy = new ConcurrentHashMap<>();
+
+        for (Map.Entry<Integer, Integer> entry : History.getVectorClock().entrySet()) {
+            copy.put(entry.getKey(), entry.getValue());
+        }
+
+        return copy;
+    }
+
     public static void incrementClock(int ID) {
         vectorClock.computeIfPresent(ID, (key, oldValue) -> oldValue + 1);
     }
@@ -34,25 +45,28 @@ public class History {
         return vectorClock;
     }
 
-    public static List<Message> getCommittedCausalMessageList() {
-        return new CopyOnWriteArrayList<>(committedCausalMessageList);
+    public static List<Message> getCommittedMessages() {
+        return new CopyOnWriteArrayList<>(committedMessages);
     }
 
     public static void addPendingMessage(Message message) {
         pendingMessages.add(message);
     }
 
-    public static void commitCausalMessage(Message message) {
-        committedCausalMessageList.add(message);
-        incrementClock(message.getSender().ID());
+    public static void commitMessage(Message message) {
+
+        committedMessages.add(message);
+        incrementClock(message.getSource().ID()); /* TODO: getSender() or getSource()? */
+
+        /* TODO: Message (ASK, TELL, TRANSACTION...) can be handled only upon committing. */
 
         checkPendingMessages();
     }
 
-    private static boolean otherClockGreater(Map<Integer, Integer> clock1, Map<Integer, Integer> clock2) {
+    private static boolean isOtherClockGreater(Map<Integer, Integer> mine, Map<Integer, Integer> other) {
 
-        for (int i = 0; i < clock1.size(); i++) {
-            if (clock2.get(i) > clock1.get(i)) {
+        for (int i = 0; i < mine.size(); i++) {
+            if (other.get(i) > mine.get(i)) {
                 return true;
             }
         }
@@ -78,14 +92,16 @@ public class History {
 
                     Message pendingMessage = iterator.next();
 
-                    if (!otherClockGreater(myVectorClock, pendingMessage.getVectorClock())) {
+                    if (!isOtherClockGreater(myVectorClock, pendingMessage.getVectorClock())) {
 
                         gotWork = true;
 
                         Logger.timestampedStandardPrint("Committing " + pendingMessage);
 
-                        committedCausalMessageList.add(pendingMessage);
-                        incrementClock(pendingMessage.getSender().ID());
+                        committedMessages.add(pendingMessage);
+                        incrementClock(pendingMessage.getSource().ID()); /* TODO: getSender() or getSource()? */
+
+                        Logger.newLineBarrierPrint(vectorClock.toString());
 
                         iterator.remove();
 
