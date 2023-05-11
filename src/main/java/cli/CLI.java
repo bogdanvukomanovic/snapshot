@@ -3,6 +3,7 @@ package cli;
 import app.Cancellable;
 import app.Logger;
 import cli.command.*;
+import cli.command.implementation.*;
 import servent.Listener;
 
 import java.util.ArrayList;

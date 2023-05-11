@@ -1,9 +1,10 @@
-package cli.command;
+package cli.command.implementation;
 
 
 import app.Logger;
 import cli.CLI;
 
+import cli.command.Command;
 import servent.Listener;
 
 

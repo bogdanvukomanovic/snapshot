@@ -1,5 +1,6 @@
-package cli.command;
+package cli.command.implementation;
 
+import cli.command.Command;
 import snapshot.Collector;
 
 public class SnapshotCommand implements Command {

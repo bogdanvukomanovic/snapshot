@@ -1,7 +1,8 @@
-package cli.command;
+package cli.command.implementation;
 
 
 import app.Logger;
+import cli.command.Command;
 
 public class PauseCommand implements Command {
 

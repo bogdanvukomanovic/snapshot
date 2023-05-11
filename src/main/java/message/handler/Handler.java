@@ -14,18 +14,6 @@ public class Handler {
     private static ExecutorService service = Executors.newWorkStealingPool();
     private static Set<Message> received = Collections.newSetFromMap(new ConcurrentHashMap<Message, Boolean>());
 
-    public static void handleRequestedMessage(Message message) {
-
-        switch (message.getMessageType()) {
-
-            case BROADCAST:
-                service.submit(RequestMessage.BROADCAST(message));
-                break;
-
-        }
-
-    }
-
     public static void handleReceivedMessage(Message message) {
 
         if (!received.add(message)) {

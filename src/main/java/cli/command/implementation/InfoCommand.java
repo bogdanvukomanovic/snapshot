@@ -1,7 +1,8 @@
-package cli.command;
+package cli.command.implementation;
 
 import app.Configuration;
 import app.Logger;
+import cli.command.Command;
 import message.Message;
 import servent.History;
 
