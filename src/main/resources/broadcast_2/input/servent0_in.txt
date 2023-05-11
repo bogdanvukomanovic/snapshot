@@ -1,5 +1,5 @@
 info
-pause 1000
+pause 3000
 broadcast a
 pause 15000
 print_causal

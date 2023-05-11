@@ -19,20 +19,15 @@ public class BroadcastCommand implements Command {
     @Override
     public void execute(String args) {
 
-
         if (args == null) {
             Logger.timestampedErrorPrint("No message to broadcast.");
             return;
         }
 
-        String body = args;
+        Message message = new BroadcastMessage(Configuration.SERVENT, null, args, History.copyVectorClock());
 
-        Map<Integer, Integer> vectorClock = History.copyVectorClock();
-
-        Message message = new BroadcastMessage(Configuration.SERVENT, null, body, vectorClock);
         History.commitMessage(message);
-
-        Logger.newLineBarrierPrint("> " + History.getVectorClock());
+        History.checkPendingMessages();
 
         for (Integer neighbor : Configuration.SERVENT.neighbours()) {
             MessageUtil.sendMessage(message.changeReceiver(neighbor));

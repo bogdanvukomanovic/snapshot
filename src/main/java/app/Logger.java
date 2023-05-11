@@ -26,4 +26,8 @@ public class Logger {
         System.out.println("\n" + message + "\n");
     }
 
+    public static void emptyLine() {
+        System.out.println();
+    }
+
 }

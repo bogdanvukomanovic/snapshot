@@ -1,44 +1,39 @@
-15:34:15 - Starting servent [0|localhost:1100]
-15:34:15 - My info: [0|localhost:1100]
-15:34:15 - Neighbours: 
-15:34:15 - 1 2 
-15:34:15 - Pausing for 1000 ms
+13:53:26 - Starting servent [0|localhost:1100]
+13:53:26 - My info: [0|localhost:1100]
+13:53:26 - Neighbours: 
+13:53:26 - 1 2 
+13:53:26 - Pausing for 3000 ms
+13:53:29 - Got message [1|0|b|BROADCAST|0]
+13:53:29 - Added to pending b from [1|localhost:1200] originally broadcast by [1|localhost:1200]
+13:53:29 - Committing [1|0|b|BROADCAST|0]
+13:53:29 - Rebroadcasting: 1
+13:53:29 - Rebroadcasting: 2
+13:53:29 - Pausing for 15000 ms
+13:53:30 - Sending message [0|0|b|BROADCAST|1]
+13:53:30 - Sending message [0|0|a|BROADCAST|1]
+13:53:30 - Sending message [0|0|b|BROADCAST|2]
+13:53:30 - Sending message [0|0|a|BROADCAST|2]
+13:53:31 - Got message [1|0|a|BROADCAST|0]
+13:53:31 - Got own message back. No rebroadcast.
+13:53:31 - Got message [2|0|b|BROADCAST|0]
+13:53:31 - Already had this. No rebroadcast.
+13:53:32 - Got message [2|0|a|BROADCAST|0]
+13:53:32 - Got own message back. No rebroadcast.
+13:53:35 - Got message [2|0|c|BROADCAST|0]
+13:53:35 - Added to pending c from [2|localhost:1300] originally broadcast by [2|localhost:1300]
+13:53:35 - Committing [2|0|c|BROADCAST|0]
+13:53:35 - Rebroadcasting: 1
+13:53:35 - Rebroadcasting: 2
+13:53:35 - Sending message [0|0|c|BROADCAST|2]
+13:53:36 - Sending message [0|0|c|BROADCAST|1]
+13:53:36 - Got message [1|0|c|BROADCAST|0]
+13:53:36 - Already had this. No rebroadcast.
 
-> {0=1, 1=0, 2=0, 3=0, 4=0}
+13:53:44 - Current causal messages:
+13:53:44 - Message 0: b from 1
+13:53:44 - Message 1: a from 0
+13:53:44 - Message 2: c from 2
 
-15:34:16 - Pausing for 15000 ms
-15:34:17 - Sending message [0|0|a|BROADCAST|1]
-15:34:18 - Sending message [0|0|a|BROADCAST|2]
-15:34:18 - Got message [1|0|a|BROADCAST|0]
-15:34:18 - Got own message back. No rebroadcast.
-15:34:19 - Got message [1|0|b|BROADCAST|0]
-15:34:19 - Added to pending b from [1|localhost:1200] originally broadcast by [1|localhost:1200]
-15:34:19 - Committing [1|0|b|BROADCAST|0]
+Vector clock: {0=1, 1=1, 2=1, 3=0, 4=0}
 
-{0=1, 1=1, 2=0, 3=0, 4=0}
-
-15:34:19 - Rebroadcasting: 1
-15:34:19 - Rebroadcasting: 2
-15:34:19 - Got message [2|0|a|BROADCAST|0]
-15:34:19 - Got own message back. No rebroadcast.
-15:34:20 - Sending message [0|0|b|BROADCAST|1]
-15:34:20 - Sending message [0|0|b|BROADCAST|2]
-15:34:21 - Got message [2|0|b|BROADCAST|0]
-15:34:21 - Already had this. No rebroadcast.
-15:34:24 - Got message [2|0|c|BROADCAST|0]
-15:34:24 - Added to pending c from [2|localhost:1300] originally broadcast by [2|localhost:1300]
-15:34:24 - Committing [2|0|c|BROADCAST|0]
-
-{0=1, 1=1, 2=1, 3=0, 4=0}
-
-15:34:24 - Rebroadcasting: 1
-15:34:24 - Rebroadcasting: 2
-15:34:24 - Sending message [0|0|c|BROADCAST|2]
-15:34:24 - Sending message [0|0|c|BROADCAST|1]
-15:34:25 - Got message [1|0|c|BROADCAST|0]
-15:34:25 - Already had this. No rebroadcast.
-15:34:31 - Current causal messages:
-15:34:31 - 	> Message 0: a from 0
-15:34:31 - 	> Message 1: b from 1
-15:34:31 - 	> Message 2: c from 2
-15:34:31 - Stopping...
+13:53:44 - Stopping...

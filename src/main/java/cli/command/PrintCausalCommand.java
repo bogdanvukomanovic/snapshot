@@ -16,11 +16,14 @@ public class PrintCausalCommand implements Command {
 
         int i = 0;
 
+        Logger.emptyLine();
         Logger.timestampedStandardPrint("Current causal messages:");
 
         for (Message message: History.getCommittedMessages()) {
-            Logger.timestampedStandardPrint("\t> Message " + i++ + ": " + message.getBody() + " from " + message.getSource().ID());
+            Logger.timestampedStandardPrint("Message " + i++ + ": " + message.getBody() + " from " + message.getSource().ID());
         }
+
+        Logger.newLineBarrierPrint("Vector clock: " + History.getVectorClock());
 
     }
 

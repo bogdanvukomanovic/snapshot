@@ -27,14 +27,7 @@ public class History {
     }
 
     public static Map<Integer, Integer> copyVectorClock() {
-
-        Map<Integer, Integer> copy = new ConcurrentHashMap<>();
-
-        for (Map.Entry<Integer, Integer> entry : History.getVectorClock().entrySet()) {
-            copy.put(entry.getKey(), entry.getValue());
-        }
-
-        return copy;
+        return new ConcurrentHashMap<>(vectorClock);
     }
 
     public static void incrementClock(int ID) {
@@ -60,7 +53,6 @@ public class History {
 
         /* TODO: Message (ASK, TELL, TRANSACTION...) can be handled only upon committing. */
 
-        checkPendingMessages();
     }
 
     private static boolean isOtherClockGreater(Map<Integer, Integer> mine, Map<Integer, Integer> other) {
@@ -97,11 +89,7 @@ public class History {
                         gotWork = true;
 
                         Logger.timestampedStandardPrint("Committing " + pendingMessage);
-
-                        committedMessages.add(pendingMessage);
-                        incrementClock(pendingMessage.getSource().ID()); /* TODO: getSender() or getSource()? */
-
-                        Logger.newLineBarrierPrint(vectorClock.toString());
+                        commitMessage(pendingMessage);
 
                         iterator.remove();
 

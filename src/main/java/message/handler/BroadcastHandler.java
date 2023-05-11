@@ -29,28 +29,27 @@ public class BroadcastHandler implements MessageHandler {
 
         if (source.ID() == Configuration.SERVENT.ID()) {
             Logger.timestampedStandardPrint("Got own message back. No rebroadcast.");
-        } else {
+            return;
+        }
 
-            if (received.add(message)) {
+        if (received.add(message)) {
 
-                Logger.timestampedStandardPrint("Added to pending " + message.getBody() + " from " + sender + " originally broadcast by " + source);
+            Logger.timestampedStandardPrint("Added to pending " + message.getBody() + " from " + sender + " originally broadcast by " + source);
 
-                History.addPendingMessage(message);
-                History.checkPendingMessages(); /* TODO: Maybe move after rebroadcasting. */
+            History.addPendingMessage(message);
+            History.checkPendingMessages(); /* TODO: Maybe move after rebroadcasting. */
 
-                for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
 
-                    Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
+                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
 
-                    MessageUtil.sendMessage(message.makeMeASender()
-                                                   .changeReceiver(neighbour));
+                MessageUtil.sendMessage(message.makeMeASender()
+                                               .changeReceiver(neighbour));
 
-                }
-
-            } else {
-                Logger.timestampedStandardPrint("Already had this. No rebroadcast.");
             }
 
+        } else {
+            Logger.timestampedStandardPrint("Already had this. No rebroadcast.");
         }
 
     }
