@@ -2,5 +2,5 @@ info
 pause 1000
 broadcast b
 pause 15000
-print_causal
+info
 stop

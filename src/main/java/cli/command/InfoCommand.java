@@ -2,6 +2,8 @@ package cli.command;
 
 import app.Configuration;
 import app.Logger;
+import message.Message;
+import servent.History;
 
 public class InfoCommand implements Command {
 
@@ -13,8 +15,8 @@ public class InfoCommand implements Command {
     @Override
     public void execute(String args) {
 
+        Logger.emptyLine();
         Logger.timestampedStandardPrint("My info: " + Configuration.SERVENT);
-        Logger.timestampedStandardPrint("Neighbours: ");
 
         String neighbours = "";
 
@@ -22,7 +24,20 @@ public class InfoCommand implements Command {
             neighbours += neighbour + " ";
         }
 
-        Logger.timestampedStandardPrint(neighbours);
+        Logger.timestampedStandardPrint("My neighbours ID's: " + neighbours);
+
+
+        int i = 0;
+
+        Logger.emptyLine();
+        Logger.timestampedStandardPrint("Currently committed messages:");
+
+        for (Message message: History.getCommittedMessages()) {
+            Logger.timestampedStandardPrint("Message " + i++ + ": " + message.getBody() + " from " + message.getSource().ID());
+        }
+
+        Logger.newLineBarrierPrint("Vector clock: " + History.getVectorClock());
+
 
     }
 

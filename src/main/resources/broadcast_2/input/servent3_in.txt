@@ -1,4 +1,4 @@
 info
 pause 15000
-print_causal
+info
 stop
