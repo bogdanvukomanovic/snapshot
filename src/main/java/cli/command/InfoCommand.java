@@ -38,7 +38,6 @@ public class InfoCommand implements Command {
 
         Logger.newLineBarrierPrint("Vector clock: " + History.getVectorClock());
 
-
     }
 
 }

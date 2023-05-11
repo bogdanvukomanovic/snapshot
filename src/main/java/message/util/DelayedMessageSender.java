@@ -30,7 +30,7 @@ public class DelayedMessageSender implements Runnable {
 
         Servent receiver = message.getReceiver();
 
-        if (MessageUtil.MESSAGE_UTIL_PRINTING) {
+        if (Mailbox.MAILBOX_PRINTING) {
             Logger.timestampedStandardPrint("Sending message " + message);
         }
 

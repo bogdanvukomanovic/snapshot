@@ -1,7 +1,9 @@
-package message;
+package message.implementation;
 
 import app.Configuration;
 import app.Logger;
+import message.Message;
+import message.MessageType;
 import servent.Servent;
 
 import java.io.Serial;
@@ -12,8 +14,6 @@ import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class BasicMessage implements Message {
-
-    /* TODO: Not handling Vector Clock logic at the moment. */
 
     @Serial
     private static final long serialVersionUID = -8860410919735866577L;

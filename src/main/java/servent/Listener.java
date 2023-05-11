@@ -3,23 +3,17 @@ package servent;
 import app.Cancellable;
 import app.Configuration;
 import app.Logger;
-import message.Message;
-import message.handler.MessageHandler;
-import message.handler.BroadcastHandler;
-import message.handler.NullHandler;
-import message.util.MessageUtil;
+import message.handler.Handler;
+import message.util.Mailbox;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class Listener implements Runnable, Cancellable {
 
     private volatile boolean working = true;
-    private final ExecutorService service = Executors.newWorkStealingPool();
 
     @Override
     public void run() {
@@ -44,17 +38,8 @@ public class Listener implements Runnable, Cancellable {
 
                 // This blocks for up to 1 second, after which SocketTimeoutException is thrown.
                 Socket clientSocket = listenerSocket.accept();
+                Handler.handleReceivedMessage(Mailbox.readMessage(clientSocket));
 
-                Message clientMessage = MessageUtil.readMessage(clientSocket);
-                MessageHandler messageHandler = new NullHandler(clientMessage);
-
-                switch (clientMessage.getMessageType()) {
-                    case BROADCAST:
-                        messageHandler = new BroadcastHandler(clientMessage);
-                        break;
-                }
-
-                service.submit(messageHandler);
 
             } catch (SocketTimeoutException e) {
                 // Uncomment the next line to see that we are waking up every second.

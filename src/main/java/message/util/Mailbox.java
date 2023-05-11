@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.Socket;
 
-public class MessageUtil {
+public class Mailbox {
 
-    public static final boolean MESSAGE_UTIL_PRINTING = true;
+    public static final boolean MAILBOX_PRINTING = true;
 
     public static Message readMessage(Socket socket) {
 
@@ -28,7 +28,7 @@ public class MessageUtil {
             throw new RuntimeException(e);
         }
 
-        if (MESSAGE_UTIL_PRINTING) {
+        if (MAILBOX_PRINTING) {
             Logger.timestampedStandardPrint("Got message " + clientMessage);
         }
 
