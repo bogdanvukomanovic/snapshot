@@ -1,0 +1,10 @@
+22:58:15 - class message.implementation.BasicMessage cannot be cast to class message.implementation.TellMessage (message.implementation.BasicMessage and message.implementation.TellMessage are in unnamed module of loader 'app')
+22:58:15 - 4
+22:58:15 - ?
+22:58:15 - ?
+22:58:15 - class message.implementation.BasicMessage cannot be cast to class message.implementation.TellMessage (message.implementation.BasicMessage and message.implementation.TellMessage are in unnamed module of loader 'app')
+22:58:15 - ?
+22:58:16 - class message.implementation.BasicMessage cannot be cast to class message.implementation.TellMessage (message.implementation.BasicMessage and message.implementation.TellMessage are in unnamed module of loader 'app')
+22:58:16 - ?
+22:58:17 - class message.implementation.BasicMessage cannot be cast to class message.implementation.TellMessage (message.implementation.BasicMessage and message.implementation.TellMessage are in unnamed module of loader 'app')
+22:58:17 - ?

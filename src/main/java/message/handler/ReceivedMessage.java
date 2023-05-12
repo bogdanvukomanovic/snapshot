@@ -13,7 +13,7 @@ public class ReceivedMessage {
         - It is likely that this is going to be refactored.
     */
 
-    public static Thread BROADCAST(Message message) {
+    public static Runnable BROADCAST(Message message) {
 
         return new Thread(() -> {
 
@@ -39,7 +39,7 @@ public class ReceivedMessage {
 
     }
 
-    public static Thread TRANSACTION(Message message) {
+    public static Runnable TRANSACTION(Message message) {
 
         return new Thread(() -> {
 
@@ -60,6 +60,54 @@ public class ReceivedMessage {
             }
 
         });
+    }
+
+    public static Runnable ASK(Message message) {
+
+        return new Thread(() -> {
+
+            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
+                Logger.timestampedStandardPrint("Got own ask message back. No rebroadcast");
+                return;
+            }
+
+            History.addPendingMessage(message);
+            History.checkPendingMessages();
+
+            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+
+                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
+                Mailbox.sendMessage(message.makeMeASender()
+                        .changeReceiver(neighbour));
+
+            }
+
+        });
+
+    }
+
+    public static Runnable TELL(Message message) {
+
+        return new Thread(() -> {
+
+            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
+                Logger.timestampedStandardPrint("Got own tell message back. No rebroadcast");
+                return;
+            }
+
+            History.addPendingMessage(message);
+            History.checkPendingMessages();
+
+            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+
+                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
+                Mailbox.sendMessage(message.makeMeASender()
+                        .changeReceiver(neighbour));
+
+            }
+
+        });
+
     }
 
 }

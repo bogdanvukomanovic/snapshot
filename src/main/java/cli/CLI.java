@@ -24,7 +24,7 @@ public class CLI implements Runnable, Cancellable {
         commands.add(new InfoCommand());
         commands.add(new PauseCommand());
         commands.add(new BroadcastCommand());
-//        commands.add(new TransactionBurstCommand(collector.getTransactionManager()));
+        commands.add(new SnapshotCommand(collector));
         commands.add(new TransactionBurstCommand());
         commands.add(new StopCommand(this, listener, collector));
 

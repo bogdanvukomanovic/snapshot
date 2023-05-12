@@ -2,6 +2,7 @@ package message;
 
 public enum MessageType {
 
-    BROADCAST, TRANSACTION
+    BROADCAST, TRANSACTION,
+    ASK, TELL
 
 }

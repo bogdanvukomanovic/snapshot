@@ -28,8 +28,8 @@ public class BroadcastCommand implements Command {
         History.commitMessage(message);
         History.checkPendingMessages();
 
-        for (Integer neighbor : Configuration.SERVENT.neighbours()) {
-            Mailbox.sendMessage(message.changeReceiver(neighbor));
+        for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+            Mailbox.sendMessage(message.changeReceiver(neighbour));
         }
 
     }

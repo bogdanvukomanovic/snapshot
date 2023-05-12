@@ -30,6 +30,12 @@ public class MessageHandler {
             case TRANSACTION:
                 service.submit(ReceivedMessage.TRANSACTION(message));
                 break;
+            case ASK:
+                service.submit(ReceivedMessage.ASK(message));
+                break;
+            case TELL:
+                service.submit(ReceivedMessage.TELL(message));
+                break;
 
         }
 
@@ -41,6 +47,12 @@ public class MessageHandler {
 
             case TRANSACTION:
                 service.submit(CommittedMessage.TRANSACTION(message));
+                break;
+            case ASK:
+                service.submit(CommittedMessage.ASK(message));
+                break;
+            case TELL:
+                service.submit(CommittedMessage.TELL(message));
                 break;
 
         }
