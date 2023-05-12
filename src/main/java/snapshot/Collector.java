@@ -10,6 +10,11 @@ public class Collector implements Runnable, Cancellable {
     private volatile boolean working = true;
     private AtomicBoolean collecting = new AtomicBoolean(false);
 
+    public static TransactionManager transactionManager;
+
+    public Collector(TransactionManager transactionManager) {
+        this.transactionManager = transactionManager;
+    }
 
     @Override
     public void run() {
@@ -52,6 +57,10 @@ public class Collector implements Runnable, Cancellable {
     @Override
     public void stop() {
         working = false;
+    }
+
+    public static TransactionManager getTransactionManager() {
+        return transactionManager;
     }
 
 }

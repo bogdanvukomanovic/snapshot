@@ -3,7 +3,7 @@ package servent;
 import app.Cancellable;
 import app.Configuration;
 import app.Logger;
-import message.handler.Handler;
+import message.handler.MessageHandler;
 import message.util.Mailbox;
 
 import java.io.IOException;
@@ -38,8 +38,7 @@ public class Listener implements Runnable, Cancellable {
 
                 // This blocks for up to 1 second, after which SocketTimeoutException is thrown.
                 Socket clientSocket = listenerSocket.accept();
-                Handler.handleReceivedMessage(Mailbox.readMessage(clientSocket));
-
+                MessageHandler.handleReceivedMessage(Mailbox.readMessage(clientSocket));
 
             } catch (SocketTimeoutException e) {
                 // Uncomment the next line to see that we are waking up every second.

@@ -4,6 +4,8 @@ import app.Configuration;
 import app.Logger;
 import cli.CLI;
 import servent.Listener;
+import snapshot.Collector;
+import snapshot.TransactionManager;
 
 public class SingleServentStarter {
 
@@ -25,7 +27,12 @@ public class SingleServentStarter {
         Thread listenerThread = new Thread(listener);
         listenerThread.start();
 
-        Thread CLIThread = new Thread(new CLI(listener));
+
+        Collector collector = new Collector(new TransactionManager());
+        Thread collectorThread = new Thread(collector);
+        collectorThread.start();
+
+        Thread CLIThread = new Thread(new CLI(listener, collector));
         CLIThread.start();
 
     }

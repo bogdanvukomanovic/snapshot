@@ -2,6 +2,7 @@ package message.handler;
 
 import app.Logger;
 import message.Message;
+import snapshot.TransactionManager;
 
 import java.util.Collections;
 import java.util.Set;
@@ -9,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class Handler {
+public class MessageHandler {
 
     private static ExecutorService service = Executors.newWorkStealingPool();
     private static Set<Message> received = Collections.newSetFromMap(new ConcurrentHashMap<Message, Boolean>());
@@ -26,6 +27,9 @@ public class Handler {
             case BROADCAST:
                 service.submit(ReceivedMessage.BROADCAST(message));
                 break;
+            case TRANSACTION:
+                service.submit(ReceivedMessage.TRANSACTION(message));
+                break;
 
         }
 
@@ -33,7 +37,13 @@ public class Handler {
 
     public static void handleCommittedMessage(Message message) {
 
-        /* ... */
+        switch (message.getMessageType()) {
+
+            case TRANSACTION:
+                service.submit(CommittedMessage.TRANSACTION(message));
+                break;
+
+        }
 
     }
 

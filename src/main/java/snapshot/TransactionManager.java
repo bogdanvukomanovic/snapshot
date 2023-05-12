@@ -4,14 +4,18 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class TransactionManager {
 
-    private final AtomicInteger balance = new AtomicInteger(1000);
+    private static AtomicInteger balance = new AtomicInteger(1000);
 
     public void add(int amount) {
-        /* ... */
+        balance.getAndAdd(+amount);
     }
 
     public void subtract(int amount) {
-        /* ... */
+        balance.getAndAdd(-amount);
+    }
+
+    public static int getCurrentBalance() {
+        return balance.get();
     }
 
 }

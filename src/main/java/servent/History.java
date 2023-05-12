@@ -2,6 +2,7 @@ package servent;
 
 import app.Logger;
 import message.Message;
+import message.handler.MessageHandler;
 
 import java.util.Iterator;
 import java.util.List;
@@ -52,6 +53,7 @@ public class History {
         incrementClock(message.getSource().ID()); /* TODO: getSender() or getSource()? */
 
         /* TODO: Message (ASK, TELL, TRANSACTION...) can be handled only upon committing. */
+        MessageHandler.handleCommittedMessage(message);
 
     }
 

@@ -150,11 +150,9 @@ public class BasicMessage implements Message {
     @Override
     public String toString() {
 
-        /* TODO: Maybe add source. */
-
-        return "[" + getSender().ID() + "|" + getID() + "|" +
-                getBody() + "|" + getMessageType() + "|" +
-                getReceiver().ID() + "]";
+        return "[ID: " + getID() + "][SOURCE: " + getSource().ID() + "][" + getSender().ID() + "->" + getReceiver().ID() +
+                "][BODY: " + getBody() + "][TYPE: " + getMessageType() +
+                "] " + getVectorClock();
     }
 
 }

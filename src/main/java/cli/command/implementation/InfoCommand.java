@@ -5,6 +5,7 @@ import app.Logger;
 import cli.command.Command;
 import message.Message;
 import servent.History;
+import snapshot.TransactionManager;
 
 public class InfoCommand implements Command {
 
@@ -38,6 +39,8 @@ public class InfoCommand implements Command {
         }
 
         Logger.newLineBarrierPrint("Vector clock: " + History.getVectorClock());
+
+        Logger.newLineBarrierPrint("Balance: " + TransactionManager.getCurrentBalance());
 
     }
 
