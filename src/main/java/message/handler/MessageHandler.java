@@ -2,7 +2,6 @@ package message.handler;
 
 import app.Logger;
 import message.Message;
-import snapshot.TransactionManager;
 
 import java.util.Collections;
 import java.util.Set;
@@ -22,22 +21,24 @@ public class MessageHandler {
             return;
         }
 
-        switch (message.getMessageType()) {
+        service.submit(ReceivedMessage.RECEIVE(message));
 
-            case BROADCAST:
-                service.submit(ReceivedMessage.BROADCAST(message));
-                break;
-            case TRANSACTION:
-                service.submit(ReceivedMessage.TRANSACTION(message));
-                break;
-            case ASK:
-                service.submit(ReceivedMessage.ASK(message));
-                break;
-            case TELL:
-                service.submit(ReceivedMessage.TELL(message));
-                break;
-
-        }
+//        switch (message.getMessageType()) {
+//
+//            case BROADCAST:
+//                service.submit(ReceivedMessage.BROADCAST(message));
+//                break;
+//            case TRANSACTION:
+//                service.submit(ReceivedMessage.TRANSACTION(message));
+//                break;
+//            case ASK:
+//                service.submit(ReceivedMessage.ASK(message));
+//                break;
+//            case TELL:
+//                service.submit(ReceivedMessage.TELL(message));
+//                break;
+//
+//        }
 
     }
 

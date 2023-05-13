@@ -13,16 +13,16 @@ public class ReceivedMessage {
         - It is likely that this is going to be refactored.
     */
 
-    public static Runnable BROADCAST(Message message) {
+    public static Runnable RECEIVE(Message message) {
 
         return new Thread(() -> {
 
             if (message.getSource().ID() == Configuration.SERVENT.ID()) {
-                Logger.timestampedStandardPrint("Got own broadcast message back. No rebroadcast.");
+                Logger.timestampedStandardPrint("Got own "+ message.getMessageType() + " message back. No rebroadcast.");
                 return;
             }
 
-            Logger.timestampedStandardPrint("Added to pending " + message.getBody() + " from " + message.getSender() + " originally broadcast by " + message.getSource());
+            // Logger.timestampedStandardPrint("Added to pending " + message.getBody() + " from " + message.getSender() + " originally broadcast by " + message.getSource());
 
             History.addPendingMessage(message);
             History.checkPendingMessages(); /* TODO: Maybe move after rebroadcasting. */
@@ -39,75 +39,99 @@ public class ReceivedMessage {
 
     }
 
-    public static Runnable TRANSACTION(Message message) {
-
-        return new Thread(() -> {
-
-            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
-                Logger.timestampedStandardPrint("Got own transaction message back. No rebroadcast");
-                return;
-            }
-
-            History.addPendingMessage(message);
-            History.checkPendingMessages();
-
-            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
-
-                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
-                Mailbox.sendMessage(message.makeMeASender()
-                        .changeReceiver(neighbour));
-
-            }
-
-        });
-    }
-
-    public static Runnable ASK(Message message) {
-
-        return new Thread(() -> {
-
-            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
-                Logger.timestampedStandardPrint("Got own ask message back. No rebroadcast");
-                return;
-            }
-
-            History.addPendingMessage(message);
-            History.checkPendingMessages();
-
-            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
-
-                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
-                Mailbox.sendMessage(message.makeMeASender()
-                        .changeReceiver(neighbour));
-
-            }
-
-        });
-
-    }
-
-    public static Runnable TELL(Message message) {
-
-        return new Thread(() -> {
-
-            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
-                Logger.timestampedStandardPrint("Got own tell message back. No rebroadcast");
-                return;
-            }
-
-            History.addPendingMessage(message);
-            History.checkPendingMessages();
-
-            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
-
-                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
-                Mailbox.sendMessage(message.makeMeASender()
-                        .changeReceiver(neighbour));
-
-            }
-
-        });
-
-    }
+//    public static Runnable BROADCAST(Message message) {
+//
+//        return new Thread(() -> {
+//
+//            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
+//                Logger.timestampedStandardPrint("Got own message back. No rebroadcast.");
+//                return;
+//            }
+//
+//            History.addPendingMessage(message);
+//            History.checkPendingMessages();
+//
+//            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+//
+//                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
+//                Mailbox.sendMessage(message.makeMeASender()
+//                        .changeReceiver(neighbour));
+//
+//            }
+//
+//        });
+//
+//    }
+//
+//    public static Runnable TRANSACTION(Message message) {
+//
+//        return new Thread(() -> {
+//
+//            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
+//                Logger.timestampedStandardPrint("Got own message back. No rebroadcast");
+//                return;
+//            }
+//
+//            History.addPendingMessage(message);
+//            History.checkPendingMessages();
+//
+//            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+//
+//                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
+//                Mailbox.sendMessage(message.makeMeASender()
+//                        .changeReceiver(neighbour));
+//
+//            }
+//
+//        });
+//    }
+//
+//    public static Runnable ASK(Message message) {
+//
+//        return new Thread(() -> {
+//
+//            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
+//                Logger.timestampedStandardPrint("Got own message back. No rebroadcast");
+//                return;
+//            }
+//
+//            History.addPendingMessage(message);
+//            History.checkPendingMessages();
+//
+//            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+//
+//                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
+//                Mailbox.sendMessage(message.makeMeASender()
+//                        .changeReceiver(neighbour));
+//
+//            }
+//
+//        });
+//
+//    }
+//
+//    public static Runnable TELL(Message message) {
+//
+//        return new Thread(() -> {
+//
+//            if (message.getSource().ID() == Configuration.SERVENT.ID()) {
+//                Logger.timestampedStandardPrint("Got own message back. No rebroadcast");
+//                return;
+//            }
+//
+//            History.addPendingMessage(message);
+//            History.checkPendingMessages();
+//
+//            for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+//
+//                Logger.timestampedStandardPrint("Rebroadcasting: " + neighbour);
+//                Mailbox.sendMessage(message.makeMeASender()
+//                        .changeReceiver(neighbour));
+//
+//            }
+//
+//        });
+//
+//    }
 
 }
