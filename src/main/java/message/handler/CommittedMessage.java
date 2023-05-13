@@ -8,7 +8,7 @@ import message.util.Mailbox;
 import servent.History;
 import servent.Servent;
 import snapshot.Collector;
-import snapshot.State;
+import snapshot.SnapshotState;
 import snapshot.TransactionManager;
 
 public class CommittedMessage {
@@ -54,7 +54,7 @@ public class CommittedMessage {
         return new Thread(() -> {
 
             if (Configuration.SERVENT.ID() == ((TellMessage) message).getInitiator().ID()) {
-                State.GSS.put(message.getSource().ID(), Integer.parseInt(message.getBody()));
+                SnapshotState.GSS.put(message.getSource().ID(), Integer.parseInt(message.getBody()));
             }
 
         });

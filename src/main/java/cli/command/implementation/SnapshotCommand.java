@@ -24,6 +24,7 @@ public class SnapshotCommand implements Command {
 
         if (Configuration.SNAPSHOT == SnapshotType.NONE) {
             Logger.timestampedErrorPrint("Snapshot denied. Please specify snapshot type in .properties file.");
+            return;
         }
 
         collector.startCollecting();

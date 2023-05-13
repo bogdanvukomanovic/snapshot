@@ -54,6 +54,7 @@ public class Configuration {
                 break;
             case "ALAGAR_VENKATESAN":
                 SNAPSHOT = SnapshotType.ALAGAR_VENKATESAN;
+                break;
             case "NONE":
                 SNAPSHOT = SnapshotType.NONE;
                 break;

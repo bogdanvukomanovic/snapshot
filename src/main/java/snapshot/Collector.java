@@ -53,7 +53,7 @@ public class Collector implements Runnable, Cancellable {
             }
 
             /* [2] WAIT FOR RESPONSES (TELL MESSAGES) */
-            while (State.getGlobalServentState().size() != Configuration.SERVENT_COUNT) {
+            while (SnapshotState.getGSS().size() != Configuration.SERVENT_COUNT) {
 
                 try {
                     Thread.sleep(1000);
@@ -67,13 +67,13 @@ public class Collector implements Runnable, Cancellable {
 
             }
 
-            Logger.newLineBarrierPrint("GSS: " + State.getGlobalServentState());
+            Logger.newLineBarrierPrint("GSS: " + SnapshotState.getGSS());
 
             /* [3] CALCULATE RESULTS */
             /* [4] PRINT RESULTS */
 
             collecting.set(false);      /* TODO: Check this. */
-            State.resetGlobalState();   /* TODO: Check this. */
+            SnapshotState.resetGlobalState();   /* TODO: Check this. */
         }
 
     }

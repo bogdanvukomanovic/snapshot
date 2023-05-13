@@ -5,6 +5,7 @@ import app.Logger;
 import cli.CLI;
 import servent.Listener;
 import snapshot.Collector;
+import snapshot.SnapshotState;
 import snapshot.TransactionManager;
 
 public class SingleServentStarter {
@@ -27,6 +28,8 @@ public class SingleServentStarter {
         Thread listenerThread = new Thread(listener);
         listenerThread.start();
 
+        SnapshotState.initializeGSS();
+        SnapshotState.initializeLCS(Configuration.SERVENT.neighbours());
 
         Collector collector = new Collector(new TransactionManager());
         Thread collectorThread = new Thread(collector);
