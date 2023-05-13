@@ -2,6 +2,7 @@ package app;
 
 import servent.History;
 import servent.Servent;
+import snapshot.SnapshotType;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,6 +14,8 @@ public class Configuration {
     public static int SERVENT_COUNT;
     public static Servent SERVENT;
     public  static List<Servent> SERVENTS = new ArrayList<>();
+
+    public static SnapshotType SNAPSHOT;
 
     private static List<Integer> collectNeighbours(Properties properties, int ID) {
         return Stream.of(properties.getProperty("SERVENT_" + ID + ".NEIGHBOURS").split(",")).map(x -> Integer.parseInt(x)).toList();
@@ -43,6 +46,19 @@ public class Configuration {
         }
 
         History.initializeVectorClock(SERVENT_COUNT);
+
+        switch (properties.getProperty("SNAPSHOT", "NONE")) {
+
+            case "ACHARYA_BADRINATH":
+                SNAPSHOT = SnapshotType.ACHARYA_BADRINATH;
+                break;
+            case "ALAGAR_VENKATESAN":
+                SNAPSHOT = SnapshotType.ALAGAR_VENKATESAN;
+            case "NONE":
+                SNAPSHOT = SnapshotType.NONE;
+                break;
+
+        }
 
     }
 
