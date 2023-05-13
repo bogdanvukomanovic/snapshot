@@ -46,7 +46,7 @@ public class BasicMessage implements Message {
 
     }
 
-    private BasicMessage(int ID, Servent source, MessageType type, Servent sender, Servent receiver, List<Servent> route, String body, Map<Integer, Integer> vectorClock) {
+    protected BasicMessage(int ID, Servent source, MessageType type, Servent sender, Servent receiver, List<Servent> route, String body, Map<Integer, Integer> vectorClock) {
 
         this.ID = ID;
         this.source = source;
