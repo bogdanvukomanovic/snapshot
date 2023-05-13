@@ -72,7 +72,8 @@ public class Collector implements Runnable, Cancellable {
             /* [3] CALCULATE RESULTS */
             /* [4] PRINT RESULTS */
 
-            collecting.set(false); /* TODO: Check this. */
+            collecting.set(false);      /* TODO: Check this. */
+            State.resetGlobalState();   /* TODO: Check this. */
         }
 
     }

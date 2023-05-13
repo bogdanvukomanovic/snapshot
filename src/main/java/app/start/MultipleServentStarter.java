@@ -13,7 +13,7 @@ public class MultipleServentStarter {
 
     public static void main(String[] args) {
 
-        String test = "snapshot";
+        String test = "snapshot_2";
 
         start("./src/main/resources/" + test);
 
