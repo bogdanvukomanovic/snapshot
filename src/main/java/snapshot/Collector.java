@@ -5,9 +5,11 @@ import app.Configuration;
 import app.Logger;
 import message.Message;
 import message.implementation.AskMessage;
+import message.implementation.TerminateMessage;
 import message.util.Mailbox;
 import servent.History;
 
+import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Collector implements Runnable, Cancellable {
@@ -40,12 +42,12 @@ public class Collector implements Runnable, Cancellable {
 
             }
 
-            /* TODO: Do collecting stuff. */
+            Message message;
 
             /* [1] BROADCAST ASK MESSAGE */
-            Message message = new AskMessage(Configuration.SERVENT, null, "ASK", History.copyVectorClock());
+            message = new AskMessage(Configuration.SERVENT, null, "ASK", History.copyVectorClock());
 
-            History.commitMessage(message);
+            History.addPendingMessage(message);
             History.checkPendingMessages();
 
             for (Integer neighbour : Configuration.SERVENT.neighbours()) {
@@ -67,13 +69,33 @@ public class Collector implements Runnable, Cancellable {
 
             }
 
-            Logger.newLineBarrierPrint("GSS: " + SnapshotState.getGSS());
+            if (Configuration.SNAPSHOT == SnapshotType.ALAGAR_VENKATESAN) {
 
-            /* [3] CALCULATE RESULTS */
-            /* [4] PRINT RESULTS */
+                message = new TerminateMessage(Configuration.SERVENT, null, "TERMINATE", History.copyVectorClock());
 
-            collecting.set(false);      /* TODO: Check this. */
-            SnapshotState.resetGlobalState();   /* TODO: Check this. */
+                History.addPendingMessage(message);
+                History.checkPendingMessages();
+
+                for (Integer neighbour : Configuration.SERVENT.neighbours()) {
+                    Mailbox.sendMessage(message.changeReceiver(neighbour));
+                }
+
+            }
+
+            /* [3] CALCULATE AND PRINT RESULTS */
+            Logger.newLineBarrierPrint("SNAPSHOT SUMMARY:");
+            int total = 0;
+            for (Map.Entry<Integer, Integer> entry : SnapshotState.GSS.entrySet()) {
+
+                Logger.timestampedStandardPrint("Servent " + entry.getKey() + " have " + entry.getValue() + " tokens.");
+                total += entry.getValue();
+
+            }
+
+            Logger.newLineBarrierPrint("Together they have: " + total);
+
+            endCollecting();
+            resetCollectingMetadata();
         }
 
     }
@@ -84,6 +106,14 @@ public class Collector implements Runnable, Cancellable {
             Logger.timestampedErrorPrint("Tried to start collecting before finished with previous.");
         }
 
+    }
+
+    private void endCollecting() {
+        collecting.set(false);
+    }
+
+    private void resetCollectingMetadata() {
+        SnapshotState.resetGlobalState();
     }
 
     @Override

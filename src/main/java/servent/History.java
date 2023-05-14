@@ -1,13 +1,15 @@
 package servent;
 
+import app.Configuration;
 import app.Logger;
 import message.Message;
+import message.MessageType;
 import message.handler.MessageHandler;
+import message.implementation.TellMessage;
+import snapshot.SnapshotState;
+import snapshot.SnapshotType;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -49,12 +51,37 @@ public class History {
 
     public static void commitMessage(Message message) {
 
-        committedMessages.add(message);
-        incrementClock(message.getSource().ID()); /* TODO: getSender() or getSource()? */
+        if (Configuration.SNAPSHOT == SnapshotType.ALAGAR_VENKATESAN) {
 
-        /* TODO: Message (ASK, TELL, TRANSACTION...) can be handled only upon committing. */
+            if (message.getMessageType() == MessageType.TERMINATE) {
+                SnapshotState.token = Optional.empty();
+            }
+
+            if (SnapshotState.token.isPresent()) {
+
+                if (isMessageOlderThenToken(message.getVectorClock(), SnapshotState.token.get().getVectorClock())) {
+
+                    if (message.getMessageType() != MessageType.TELL) {
+                        SnapshotState.LCS.get(message.getSender().ID()).add(message);
+                    }
+
+                }
+            }
+        }
+
+        committedMessages.add(message);
+        incrementClock(message.getSource().ID());
         MessageHandler.handleCommittedMessage(message);
 
+    }
+
+    private static boolean isMessageOlderThenToken(Map<Integer, Integer> mine, Map<Integer, Integer> other) {
+
+        /* TODO: Prone to change. */
+        /* It makes sense that because of the causal broadcast there is no need to compare vector clocks. */
+        /* But, if Alagar-Venkatesan algorithm starts behaving weirdly this is the first place to look at. */
+
+        return true;
     }
 
     private static boolean isOtherClockGreater(Map<Integer, Integer> mine, Map<Integer, Integer> other) {
@@ -90,7 +117,6 @@ public class History {
 
                         gotWork = true;
 
-                        Logger.timestampedStandardPrint("Committing " + pendingMessage);
                         commitMessage(pendingMessage);
 
                         iterator.remove();

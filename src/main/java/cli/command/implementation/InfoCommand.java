@@ -35,7 +35,7 @@ public class InfoCommand implements Command {
         Logger.timestampedStandardPrint("Currently committed messages:");
 
         for (Message message: History.getCommittedMessages()) {
-            Logger.timestampedStandardPrint("Message " + i++ + ": " + message.getBody() + " from " + message.getSource().ID());
+            Logger.timestampedStandardPrint("Message " + i++ + ": " + message.getMessageType() + ":" + message.getBody() + " from " + message.getSource().ID());
         }
 
         Logger.newLineBarrierPrint("Vector clock: " + History.getVectorClock());

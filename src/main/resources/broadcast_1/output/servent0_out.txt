@@ -1,24 +1,43 @@
-14:42:10 - Starting servent [0|localhost:1100]
-14:42:10 - My info: [0|localhost:1100]
-14:42:10 - Neighbours: 
-14:42:10 - 1 2 
+14:15:52 - Starting servent [0|localhost:1100]
 
-> {0=1, 1=0, 2=0, 3=0, 4=0}
+14:15:52 - My info: [0|localhost:1100]
+14:15:52 - My neighbours ID's: 1 2 
+
+14:15:52 - Currently committed messages:
+
+Vector clock: {0=0, 1=0, 2=0, 3=0, 4=0}
 
 
-> {0=2, 1=0, 2=0, 3=0, 4=0}
+Balance: 1000
 
-14:42:10 - Pausing for 15000 ms
-14:42:11 - Sending message [0|0|MSG_1|BROADCAST|2]
-14:42:11 - Sending message [0|1|MSG_2|BROADCAST|1]
-14:42:12 - Sending message [0|0|MSG_1|BROADCAST|1]
-14:42:12 - Sending message [0|1|MSG_2|BROADCAST|2]
-14:42:12 - Got message [2|0|MSG_1|BROADCAST|0]
-14:42:12 - Got own message back. No rebroadcast.
-14:42:13 - Got message [1|1|MSG_2|BROADCAST|0]
-14:42:13 - Got own message back. No rebroadcast.
-14:42:13 - Got message [1|0|MSG_1|BROADCAST|0]
-14:42:13 - Got own message back. No rebroadcast.
-14:42:13 - Got message [2|1|MSG_2|BROADCAST|0]
-14:42:13 - Got own message back. No rebroadcast.
-14:42:25 - Stopping...
+14:15:52 - Pausing for 15000 ms
+14:15:53 - Sending message [ID: 0][SOURCE: 0][0->1][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+14:15:53 - Sending message [ID: 1][SOURCE: 0][0->2][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+14:15:53 - Sending message [ID: 1][SOURCE: 0][0->1][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+14:15:54 - Sending message [ID: 0][SOURCE: 0][0->2][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+14:15:54 - Got message [ID: 1][SOURCE: 0][1->0][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+14:15:54 - Got own BROADCAST message back. No rebroadcast.
+
+14:15:55 - Got message [ID: 0][SOURCE: 0][2->0][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+14:15:55 - Got own BROADCAST message back. No rebroadcast.
+
+14:15:55 - Got message [ID: 0][SOURCE: 0][1->0][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+14:15:55 - Already had this. Rejecting.
+
+14:15:55 - Got message [ID: 1][SOURCE: 0][2->0][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+14:15:55 - Already had this. Rejecting.
+
+
+14:16:07 - My info: [0|localhost:1100]
+14:16:07 - My neighbours ID's: 1 2 
+
+14:16:07 - Currently committed messages:
+14:16:07 - Message 0: BROADCAST:MSG_1 from 0
+14:16:07 - Message 1: BROADCAST:MSG_2 from 0
+
+Vector clock: {0=2, 1=0, 2=0, 3=0, 4=0}
+
+
+Balance: 1000
+
+14:16:07 - Stopping...

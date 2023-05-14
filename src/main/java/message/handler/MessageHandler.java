@@ -18,27 +18,11 @@ public class MessageHandler {
 
         if (!received.add(message)) {
             Logger.timestampedStandardPrint("Already had this. Rejecting.");
+            Logger.emptyLine();
             return;
         }
 
         service.submit(ReceivedMessage.RECEIVE(message));
-
-//        switch (message.getMessageType()) {
-//
-//            case BROADCAST:
-//                service.submit(ReceivedMessage.BROADCAST(message));
-//                break;
-//            case TRANSACTION:
-//                service.submit(ReceivedMessage.TRANSACTION(message));
-//                break;
-//            case ASK:
-//                service.submit(ReceivedMessage.ASK(message));
-//                break;
-//            case TELL:
-//                service.submit(ReceivedMessage.TELL(message));
-//                break;
-//
-//        }
 
     }
 
@@ -54,6 +38,9 @@ public class MessageHandler {
                 break;
             case TELL:
                 service.submit(CommittedMessage.TELL(message));
+                break;
+            case TERMINATE:
+                service.submit(CommittedMessage.TERMINATE(message));
                 break;
 
         }

@@ -25,7 +25,7 @@ public class BroadcastCommand implements Command {
 
         Message message = new BroadcastMessage(Configuration.SERVENT, null, args, History.copyVectorClock());
 
-        History.commitMessage(message);
+        History.addPendingMessage(message);
         History.checkPendingMessages();
 
         for (Integer neighbour : Configuration.SERVENT.neighbours()) {
