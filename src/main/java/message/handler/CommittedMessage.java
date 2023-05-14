@@ -9,10 +9,7 @@ import message.implementation.TransactionMessage;
 import message.util.Mailbox;
 import servent.History;
 import servent.Servent;
-import snapshot.Collector;
-import snapshot.SnapshotState;
-import snapshot.SnapshotType;
-import snapshot.TransactionManager;
+import snapshot.*;
 
 import java.util.List;
 import java.util.Map;
@@ -28,11 +25,13 @@ public class CommittedMessage {
 
             if (Configuration.SERVENT.ID() == message.getSource().ID()) {
                 manager.subtract(Integer.parseInt(message.getBody()));
+                SnapshotState.sent.computeIfPresent(((TransactionMessage) message).getPayee().ID(), (key, value) -> value + Integer.parseInt(message.getBody()));
                 return;
             }
 
             if (Configuration.SERVENT.ID() == ((TransactionMessage) message).getPayee().ID()) {
                 manager.add(Integer.parseInt(message.getBody()));
+                SnapshotState.received.computeIfPresent(message.getSource().ID(), (key, value) -> value + Integer.parseInt(message.getBody()));
             }
 
         });
@@ -50,7 +49,9 @@ public class CommittedMessage {
 
             Servent initiator = message.getSource();
 
-            Message response = new TellMessage(Configuration.SERVENT, null, initiator, String.valueOf(TransactionManager.getCurrentBalance()), History.copyVectorClock());
+            Snap snap = new Snap(SnapshotState.copySent(), SnapshotState.copyReceived(), TransactionManager.getCurrentBalance());
+
+            Message response = new TellMessage(Configuration.SERVENT, null, initiator, snap, String.valueOf(TransactionManager.getCurrentBalance()), History.copyVectorClock());
 
             History.addPendingMessage(response);
             History.checkPendingMessages();
@@ -68,7 +69,7 @@ public class CommittedMessage {
         return new Thread(() -> {
 
             if (Configuration.SERVENT.ID() == ((TellMessage) message).getInitiator().ID()) {
-                SnapshotState.GSS.put(message.getSource().ID(), Integer.parseInt(message.getBody()));
+                SnapshotState.GSS.put(message.getSource().ID(), ((TellMessage) message).getSnap());
             }
 
         });
@@ -88,7 +89,7 @@ public class CommittedMessage {
                 for (Message channelMessage : entry.getValue()) {
 
                     if (channelMessage.getMessageType() == MessageType.TRANSACTION) {
-                        // Logger.timestampedErrorPrint("PAYER: " + ((TransactionMessage) channelMessage).getSource().ID() + " PAYEE: " + ((TransactionMessage) channelMessage).getPayee().ID());
+
                         if (Configuration.SERVENT.ID() == ((TransactionMessage) channelMessage).getPayee().ID()) {
                             amount += Integer.parseInt(channelMessage.getBody());
                         }

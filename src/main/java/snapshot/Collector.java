@@ -85,19 +85,56 @@ public class Collector implements Runnable, Cancellable {
             /* [3] CALCULATE AND PRINT RESULTS */
             Logger.newLineBarrierPrint("SNAPSHOT SUMMARY:");
             int total = 0;
-            for (Map.Entry<Integer, Integer> entry : SnapshotState.GSS.entrySet()) {
+            for (Map.Entry<Integer, Snap> entry : SnapshotState.GSS.entrySet()) {
 
-                Logger.timestampedStandardPrint("Servent " + entry.getKey() + " have " + entry.getValue() + " tokens.");
-                total += entry.getValue();
+                Logger.timestampedStandardPrint("Servent " + entry.getKey() + " have " + entry.getValue().currentBalance() + " tokens.");
+                total += entry.getValue().currentBalance();
 
             }
 
-            Logger.newLineBarrierPrint("Together they have: " + total);
+            Logger.newLineBarrierPrint("Together they have " + total + " tokens.");
+
+            if (Configuration.SNAPSHOT == SnapshotType.ACHARYA_BADRINATH) {
+                calculateChannelState();
+            }
+
 
             endCollecting();
             resetCollectingMetadata();
         }
 
+    }
+
+    private int calculateChannelState() {
+
+        int total = 0;
+
+        for (int i = 0; i < Configuration.SERVENT_COUNT; i++) {
+
+            for (int j = 0; j < Configuration.SERVENT_COUNT; j++) {
+
+                if (i == j) { continue; }
+
+                if (!Configuration.getServentByID(i).neighbours().contains(Configuration.getServentByID(j).ID())) {
+                    continue;
+                }
+
+                Integer iServentID = Configuration.getServentByID(i).ID();
+                Integer jServentID = Configuration.getServentByID(j).ID();
+
+                int x = SnapshotState.GSS.get(iServentID).sent().get(jServentID) - SnapshotState.GSS.get(jServentID).received().get(iServentID);
+
+                if (x > 0) {
+                    Logger.timestampedStandardPrint("Servent " + jServentID + " did not receive " + x + " tokens from Servent " + iServentID);
+                    total += x;
+                }
+
+            }
+        }
+
+        Logger.newLineBarrierPrint("There are " + total + " tokens in channels.");
+
+        return total;
     }
 
     public void startCollecting() {

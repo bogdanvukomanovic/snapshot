@@ -2,19 +2,19 @@ package snapshot;
 
 import message.Message;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class SnapshotState {
 
-    public static Map<Integer, Integer> GSS;
+    public static Map<Integer, Integer> sent;
+    public static Map<Integer, Integer> received;
+
+    public static Map<Integer, Snap> GSS;
     public static Map<Integer, List<Message>> LCS;
     public static Optional<Message> token = Optional.empty();
 
-    public static Map<Integer, Integer> getGSS() {
+    public static Map<Integer, Snap> getGSS() {
         return GSS;
     }
 
@@ -42,6 +42,28 @@ public class SnapshotState {
             LCS.put(neighbour, new ArrayList<>());
         }
 
+    }
+
+    public static void initializeSent(Integer serventCount) {
+        sent = new HashMap<>();
+        for (int i = 0; i < serventCount; i++) {
+            sent.put(i, 0);
+        }
+    }
+
+    public static void initializeReceived(Integer serventCount) {
+        received = new HashMap<>();
+        for (int i = 0; i < serventCount; i++) {
+            received.put(i, 0);
+        }
+    }
+
+    public static Map<Integer, Integer> copySent() {
+        return new ConcurrentHashMap<>(sent);
+    }
+
+    public static Map<Integer, Integer> copyReceived() {
+        return new ConcurrentHashMap<>(received);
     }
 
 }

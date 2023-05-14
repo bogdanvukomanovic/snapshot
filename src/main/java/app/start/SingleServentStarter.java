@@ -31,6 +31,9 @@ public class SingleServentStarter {
         SnapshotState.initializeGSS();
         SnapshotState.initializeLCS(Configuration.SERVENT.neighbours());
 
+        SnapshotState.initializeSent(Configuration.SERVENT_COUNT);
+        SnapshotState.initializeReceived(Configuration.SERVENT_COUNT);
+
         Collector collector = new Collector(new TransactionManager());
         Thread collectorThread = new Thread(collector);
         collectorThread.start();
