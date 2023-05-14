@@ -1,55 +1,55 @@
-14:15:52 - Starting servent [3|localhost:1400]
+19:43:49 - Starting servent [3|localhost:1400]
 
-14:15:52 - My info: [3|localhost:1400]
-14:15:52 - My neighbours ID's: 1 2 4 
+19:43:49 - My info: [3|localhost:1400]
+19:43:49 - My neighbours ID's: 1 2 4 
 
-14:15:52 - Currently committed messages:
+19:43:49 - Currently committed messages:
 
 Vector clock: {0=0, 1=0, 2=0, 3=0, 4=0}
 
 
 Balance: 1000
 
-14:15:52 - Pausing for 15000 ms
-14:15:54 - Got message [ID: 1][SOURCE: 0][1->3][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:15:54 - Rebroadcasting: 1
-14:15:54 - Rebroadcasting: 2
-14:15:54 - Rebroadcasting: 4
+19:43:49 - Pausing for 15000 ms
+19:43:51 - Got message [ID: 1][SOURCE: 0][2->3][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:43:51 - Rebroadcasting: 1
+19:43:51 - Rebroadcasting: 2
+19:43:51 - Rebroadcasting: 4
 
-14:15:54 - Got message [ID: 0][SOURCE: 0][1->3][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:15:54 - Rebroadcasting: 1
-14:15:54 - Rebroadcasting: 2
-14:15:54 - Rebroadcasting: 4
+19:43:51 - Got message [ID: 1][SOURCE: 0][1->3][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:43:51 - Already had this. Rejecting.
 
-14:15:55 - Got message [ID: 0][SOURCE: 0][2->3][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:15:55 - Already had this. Rejecting.
+19:43:51 - Got message [ID: 0][SOURCE: 0][1->3][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:43:51 - Rebroadcasting: 1
+19:43:51 - Rebroadcasting: 2
+19:43:51 - Rebroadcasting: 4
 
-14:15:55 - Sending message [ID: 0][SOURCE: 0][3->4][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:15:55 - Got message [ID: 1][SOURCE: 0][2->3][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:15:55 - Already had this. Rejecting.
+19:43:51 - Got message [ID: 0][SOURCE: 0][2->3][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:43:51 - Already had this. Rejecting.
 
-14:15:55 - Sending message [ID: 1][SOURCE: 0][3->4][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:15:55 - Sending message [ID: 1][SOURCE: 0][3->1][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:15:55 - Sending message [ID: 1][SOURCE: 0][3->2][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:15:56 - Sending message [ID: 0][SOURCE: 0][3->2][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:15:56 - Sending message [ID: 0][SOURCE: 0][3->1][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:15:56 - Got message [ID: 0][SOURCE: 0][4->3][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:15:56 - Already had this. Rejecting.
+19:43:51 - Sending message [ID: 1][SOURCE: 0][3->4][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:43:52 - Sending message [ID: 1][SOURCE: 0][3->2][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:43:52 - Sending message [ID: 1][SOURCE: 0][3->1][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:43:52 - Sending message [ID: 0][SOURCE: 0][3->1][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:43:52 - Sending message [ID: 0][SOURCE: 0][3->4][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:43:52 - Sending message [ID: 0][SOURCE: 0][3->2][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:43:53 - Got message [ID: 1][SOURCE: 0][4->3][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:43:53 - Already had this. Rejecting.
 
-14:15:56 - Got message [ID: 1][SOURCE: 0][4->3][BODY: MSG_2][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:15:56 - Already had this. Rejecting.
+19:43:53 - Got message [ID: 0][SOURCE: 0][4->3][BODY: MSG_1][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:43:53 - Already had this. Rejecting.
 
 
-14:16:07 - My info: [3|localhost:1400]
-14:16:07 - My neighbours ID's: 1 2 4 
+19:44:04 - My info: [3|localhost:1400]
+19:44:04 - My neighbours ID's: 1 2 4 
 
-14:16:07 - Currently committed messages:
-14:16:07 - Message 0: BROADCAST:MSG_1 from 0
-14:16:07 - Message 1: BROADCAST:MSG_2 from 0
+19:44:04 - Currently committed messages:
+19:44:04 - Message 0: BROADCAST:MSG_1 from 0
+19:44:04 - Message 1: BROADCAST:MSG_2 from 0
 
 Vector clock: {0=2, 1=0, 2=0, 3=0, 4=0}
 
 
 Balance: 1000
 
-14:16:07 - Stopping...
+19:44:04 - Stopping...

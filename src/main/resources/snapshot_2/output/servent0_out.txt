@@ -1,873 +1,873 @@
-14:30:24 - Starting servent [0|localhost:1100]
-14:30:24 - Pausing for 1000 ms
-14:30:25 - Pausing for 40000 ms
-14:30:25 - Sending message [ID: 0][SOURCE: 0][0->2][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 3][SOURCE: 0][0->2][BODY: 5][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 15][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 10][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 1][SOURCE: 0][0->2][BODY: 8][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 5][SOURCE: 0][0->2][BODY: 5][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 6][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 26][SOURCE: 0][0->1][BODY: 7][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 3][SOURCE: 0][0->1][BODY: 5][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 22][SOURCE: 0][0->1][BODY: 9][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 11][SOURCE: 0][0->2][BODY: 7][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 16][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 2][SOURCE: 0][0->1][BODY: 3][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 20][SOURCE: 0][0->1][BODY: 4][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
-14:30:25 - Sending message [ID: 17][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 14][SOURCE: 0][0->1][BODY: 3][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 9][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 13][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 12][SOURCE: 0][0->1][BODY: 7][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 25][SOURCE: 0][0->2][BODY: 1][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 20][SOURCE: 0][0->2][BODY: 4][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 7][SOURCE: 0][0->1][BODY: 9][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 25][SOURCE: 0][0->1][BODY: 1][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 9][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 2][SOURCE: 0][0->2][BODY: 3][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 19][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 21][SOURCE: 0][0->1][BODY: 5][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 7][SOURCE: 0][0->2][BODY: 9][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 18][SOURCE: 0][0->2][BODY: 9][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 28][SOURCE: 0][0->2][BODY: 8][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 8][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 6][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 8][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 27][SOURCE: 0][0->1][BODY: 7][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 11][SOURCE: 0][0->1][BODY: 7][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 29][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 4][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 14][SOURCE: 0][0->2][BODY: 3][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 26][SOURCE: 0][0->2][BODY: 7][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 10][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 24][SOURCE: 0][0->1][BODY: 4][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 24][SOURCE: 0][0->2][BODY: 4][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 4][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 0][SOURCE: 0][0->1][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 18][SOURCE: 0][0->1][BODY: 9][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 16][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 12][SOURCE: 0][0->2][BODY: 7][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 22][SOURCE: 0][0->2][BODY: 9][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 28][SOURCE: 0][0->1][BODY: 8][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 15][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 23][SOURCE: 0][0->2][BODY: 4][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 17][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 19][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 29][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 21][SOURCE: 0][0->2][BODY: 5][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 27][SOURCE: 0][0->2][BODY: 7][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 1][SOURCE: 0][0->1][BODY: 8][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 5][SOURCE: 0][0->1][BODY: 5][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 23][SOURCE: 0][0->1][BODY: 4][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
-14:30:26 - Sending message [ID: 13][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got message [ID: 0][SOURCE: 0][2->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got message [ID: 42][SOURCE: 3][2->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
-
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
-
-14:30:27 - Got message [ID: 15][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
-
-14:30:27 - Got message [ID: 39][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
-14:30:27 - Got message [ID: 22][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
-14:30:27 - Got message [ID: 29][SOURCE: 3][2->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
-14:30:27 - Rebroadcasting: 2
-14:30:27 - Rebroadcasting: 1
-
-14:30:27 - Got message [ID: 10][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
-
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
-
-14:30:27 - Rebroadcasting: 2
-
-14:30:27 - Got message [ID: 3][SOURCE: 0][2->0][BODY: 5][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
-
-14:30:27 - Got message [ID: 20][SOURCE: 0][1->0][BODY: 4][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
-
-14:30:27 - Got message [ID: 3][SOURCE: 0][1->0][BODY: 5][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Already had this. Rejecting.
-
-14:30:27 - Got message [ID: 5][SOURCE: 0][2->0][BODY: 5][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
-
-14:30:27 - Got message [ID: 38][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:30 - Starting servent [0|localhost:1100]
+19:50:30 - Pausing for 1000 ms
+19:50:31 - Pausing for 40000 ms
+19:50:31 - Sending message [ID: 27][SOURCE: 0][0->2][BODY: 1][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 7][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 27][SOURCE: 0][0->1][BODY: 1][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 19][SOURCE: 0][0->2][BODY: 1][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 16][SOURCE: 0][0->2][BODY: 3][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 12][SOURCE: 0][0->1][BODY: 4][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 28][SOURCE: 0][0->2][BODY: 1][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 29][SOURCE: 0][0->2][BODY: 5][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 1][SOURCE: 0][0->2][BODY: 2][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 8][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 3][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 9][SOURCE: 0][0->1][BODY: 9][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 15][SOURCE: 0][0->2][BODY: 2][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
+19:50:31 - Sending message [ID: 29][SOURCE: 0][0->1][BODY: 5][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 17][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 11][SOURCE: 0][0->1][BODY: 2][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 24][SOURCE: 0][0->1][BODY: 5][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 14][SOURCE: 0][0->2][BODY: 7][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 11][SOURCE: 0][0->2][BODY: 2][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 16][SOURCE: 0][0->1][BODY: 3][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 23][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 12][SOURCE: 0][0->2][BODY: 4][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 26][SOURCE: 0][0->1][BODY: 1][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 28][SOURCE: 0][0->1][BODY: 1][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 6][SOURCE: 0][0->1][BODY: 8][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 2][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 18][SOURCE: 0][0->1][BODY: 7][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 4][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 0][SOURCE: 0][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 22][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 5][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 20][SOURCE: 0][0->2][BODY: 1][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 9][SOURCE: 0][0->2][BODY: 9][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 26][SOURCE: 0][0->2][BODY: 1][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 1][SOURCE: 0][0->1][BODY: 2][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 2][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 0][SOURCE: 0][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 21][SOURCE: 0][0->2][BODY: 3][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 7][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 25][SOURCE: 0][0->2][BODY: 2][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 6][SOURCE: 0][0->2][BODY: 8][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 14][SOURCE: 0][0->1][BODY: 7][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 23][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 3][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 15][SOURCE: 0][0->1][BODY: 2][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 13][SOURCE: 0][0->1][BODY: 1][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 22][SOURCE: 0][0->2][BODY: 6][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 21][SOURCE: 0][0->1][BODY: 3][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 4][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 24][SOURCE: 0][0->2][BODY: 5][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 17][SOURCE: 0][0->1][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 25][SOURCE: 0][0->1][BODY: 2][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 18][SOURCE: 0][0->2][BODY: 7][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 19][SOURCE: 0][0->1][BODY: 1][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 13][SOURCE: 0][0->2][BODY: 1][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 10][SOURCE: 0][0->2][BODY: 8][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 5][SOURCE: 0][0->2][BODY: 10][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 10][SOURCE: 0][0->1][BODY: 8][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 8][SOURCE: 0][0->1][BODY: 10][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
+19:50:32 - Sending message [ID: 20][SOURCE: 0][0->1][BODY: 1][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got message [ID: 0][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
+
+19:50:33 - Got message [ID: 1][SOURCE: 0][2->0][BODY: 2][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got message [ID: 8][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got message [ID: 28][SOURCE: 0][2->0][BODY: 1][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got message [ID: 29][SOURCE: 0][2->0][BODY: 5][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got message [ID: 1][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
+
+19:50:33 - Got message [ID: 3][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got message [ID: 12][SOURCE: 0][1->0][BODY: 4][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got message [ID: 27][SOURCE: 0][1->0][BODY: 1][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got message [ID: 7][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
+
+19:50:33 - Got message [ID: 29][SOURCE: 0][1->0][BODY: 5][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Already had this. Rejecting.
+
+19:50:33 - Got message [ID: 27][SOURCE: 0][2->0][BODY: 1][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Already had this. Rejecting.
+
+19:50:33 - Got message [ID: 10][SOURCE: 3][2->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
+19:50:33 - Got message [ID: 16][SOURCE: 0][2->0][BODY: 3][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 20][SOURCE: 0][2->0][BODY: 4][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Already had this. Rejecting.
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Got message [ID: 4][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 16][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 6][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 37][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 1][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 19][SOURCE: 0][2->0][BODY: 1][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Got message [ID: 16][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Got message [ID: 25][SOURCE: 3][1->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 6][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Got message [ID: 23][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 20][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 24][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 26][SOURCE: 0][1->0][BODY: 7][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Got message [ID: 23][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
+19:50:33 - Already had this. Rejecting.
 
-14:30:27 - Got message [ID: 14][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 6][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 33][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 39][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 12][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 7][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 11][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 26][SOURCE: 0][1->0][BODY: 1][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Got message [ID: 7][SOURCE: 3][2->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 22][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 36][SOURCE: 3][2->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 36][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 27][SOURCE: 3][1->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 42][SOURCE: 3][2->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 22][SOURCE: 0][1->0][BODY: 9][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Got message [ID: 41][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 8][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Got message [ID: 14][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 19][SOURCE: 3][1->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 21][SOURCE: 0][2->0][BODY: 3][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Got message [ID: 24][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 5][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 1][SOURCE: 0][2->0][BODY: 8][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Got message [ID: 34][SOURCE: 3][1->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 44][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Got message [ID: 8][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 11][SOURCE: 0][2->0][BODY: 2][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 16][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
+19:50:33 - Already had this. Rejecting.
 
-14:30:27 - Got message [ID: 25][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 18][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 32][SOURCE: 3][2->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 29][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 23][SOURCE: 3][2->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 22][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Got message [ID: 11][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
-14:30:27 - Already had this. Rejecting.
+19:50:33 - Got message [ID: 3][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 22][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
-14:30:27 - Already had this. Rejecting.
+19:50:33 - Got message [ID: 9][SOURCE: 0][2->0][BODY: 9][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got message [ID: 21][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Got message [ID: 9][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 17][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 14][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
+19:50:33 - Already had this. Rejecting.
 
-14:30:27 - Got message [ID: 38][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
-14:30:27 - Already had this. Rejecting.
+19:50:33 - Got message [ID: 13][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 39][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
-14:30:27 - Already had this. Rejecting.
+19:50:33 - Got message [ID: 24][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
+19:50:33 - Already had this. Rejecting.
 
-14:30:27 - Got message [ID: 33][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
-14:30:27 - Already had this. Rejecting.
+19:50:33 - Got message [ID: 6][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
+19:50:33 - Already had this. Rejecting.
 
-14:30:27 - Got message [ID: 19][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Got message [ID: 2][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
+19:50:33 - Got message [ID: 35][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
+19:50:33 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:27 - Got message [ID: 2][SOURCE: 0][1->0][BODY: 3][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
-14:30:27 - Got own TRANSACTION message back. No rebroadcast.
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 29][SOURCE: 3][1->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
-14:30:27 - Already had this. Rejecting.
+19:50:33 - Got message [ID: 33][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Got message [ID: 17][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 35][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Rebroadcasting: 1
+19:50:33 - Rebroadcasting: 2
 
-14:30:27 - Got message [ID: 2][SOURCE: 3][2->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:33 - Got message [ID: 15][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
+19:50:33 - Got message [ID: 39][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
+19:50:33 - Already had this. Rejecting.
 
-14:30:27 - Got message [ID: 43][SOURCE: 3][2->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
-14:30:27 - Rebroadcasting: 1
-14:30:27 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 4][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Sending message [ID: 29][SOURCE: 3][0->1][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
-14:30:28 - Got message [ID: 8][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 2][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Sending message [ID: 6][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
-14:30:28 - Got message [ID: 12][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 8][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Sending message [ID: 20][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
-14:30:28 - Got message [ID: 17][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Got message [ID: 5][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 11][SOURCE: 0][2->0][BODY: 7][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 15][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 1][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 21][SOURCE: 3][2->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 23][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 13][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Got message [ID: 20][SOURCE: 0][2->0][BODY: 1][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 28][SOURCE: 0][2->0][BODY: 8][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Sending message [ID: 1][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
+19:50:34 - Got message [ID: 34][SOURCE: 3][2->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 25][SOURCE: 0][1->0][BODY: 1][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Got message [ID: 26][SOURCE: 3][2->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 16][SOURCE: 3][2->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 18][SOURCE: 0][1->0][BODY: 7][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 18][SOURCE: 0][2->0][BODY: 9][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Got message [ID: 44][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 0][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 1][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
-14:30:28 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 31][SOURCE: 3][2->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 17][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 7][SOURCE: 0][2->0][BODY: 9][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Got message [ID: 9][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 13][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 38][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 26][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 2][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 13][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 4][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 19][SOURCE: 3][2->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 14][SOURCE: 0][1->0][BODY: 7][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got message [ID: 26][SOURCE: 0][2->0][BODY: 1][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 18][SOURCE: 3][1->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 12][SOURCE: 0][2->0][BODY: 4][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 28][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 24][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 3][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 14][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 0][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got message [ID: 32][SOURCE: 3][2->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 17][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 28][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 0][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Sending message [ID: 38][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 36][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 5][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
-14:30:28 - Sending message [ID: 27][SOURCE: 3][0->1][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 15][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 28][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 8][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 43][SOURCE: 3][1->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 11][SOURCE: 0][1->0][BODY: 2][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 36][SOURCE: 3][0->1][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
-14:30:28 - Got message [ID: 7][SOURCE: 0][1->0][BODY: 9][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 4][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Sending message [ID: 11][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
-14:30:28 - Sending message [ID: 22][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
-14:30:28 - Got message [ID: 7][SOURCE: 3][1->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 22][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 25][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 38][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 30][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 16][SOURCE: 0][1->0][BODY: 3][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 3][SOURCE: 3][2->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 14][SOURCE: 0][2->0][BODY: 7][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 7][SOURCE: 3][0->2][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
-14:30:28 - Got message [ID: 9][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Got message [ID: 41][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 2][SOURCE: 0][2->0][BODY: 3][TYPE: TRANSACTION] {0=2, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 6][SOURCE: 0][1->0][BODY: 8][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 16][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=16, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 25][SOURCE: 3][2->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 18][SOURCE: 3][2->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 37][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 5][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 28][SOURCE: 0][1->0][BODY: 1][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 44][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 15][SOURCE: 0][2->0][BODY: 2][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got message [ID: 1][SOURCE: 0][1->0][BODY: 2][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 29][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Sending message [ID: 25][SOURCE: 3][0->1][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 27][SOURCE: 3][2->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 0][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Sending message [ID: 14][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
+19:50:34 - Sending message [ID: 34][SOURCE: 3][0->1][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
+19:50:34 - Got message [ID: 27][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
+19:50:34 - Got message [ID: 12][SOURCE: 3][2->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 26][SOURCE: 0][2->0][BODY: 7][TYPE: TRANSACTION] {0=26, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Got message [ID: 33][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 12][SOURCE: 0][2->0][BODY: 7][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 41][SOURCE: 3][1->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 12][SOURCE: 3][1->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 3][SOURCE: 3][1->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 13][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 9][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 32][SOURCE: 3][1->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 16][SOURCE: 3][1->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 13][SOURCE: 0][1->0][BODY: 1][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Sending message [ID: 24][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
-14:30:28 - Got message [ID: 14][SOURCE: 0][2->0][BODY: 3][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Got message [ID: 7][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 19][SOURCE: 3][0->2][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
-14:30:28 - Got message [ID: 12][SOURCE: 0][1->0][BODY: 7][TYPE: TRANSACTION] {0=12, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 11][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 10][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
-14:30:28 - Sending message [ID: 12][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
-14:30:28 - Got message [ID: 9][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 31][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 6][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 21][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 11][SOURCE: 0][1->0][BODY: 7][TYPE: TRANSACTION] {0=11, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 35][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 31][SOURCE: 3][1->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 43][SOURCE: 3][2->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 18][SOURCE: 0][2->0][BODY: 7][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 30][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 22][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
+19:50:34 - Got message [ID: 28][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 37][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
-14:30:28 - Got message [ID: 8][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 13][SOURCE: 0][2->0][BODY: 1][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 40][SOURCE: 3][1->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Sending message [ID: 21][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
+19:50:34 - Got message [ID: 26][SOURCE: 3][1->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 41][SOURCE: 3][2->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 41][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
+19:50:34 - Sending message [ID: 1][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
+19:50:34 - Sending message [ID: 39][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
+19:50:34 - Got message [ID: 9][SOURCE: 0][1->0][BODY: 9][TYPE: TRANSACTION] {0=9, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got message [ID: 19][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 6][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 33][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
+19:50:34 - Got message [ID: 6][SOURCE: 0][2->0][BODY: 8][TYPE: TRANSACTION] {0=6, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 38][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
-14:30:28 - Got message [ID: 4][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 30][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 25][SOURCE: 0][2->0][BODY: 1][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 27][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 4][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got message [ID: 14][SOURCE: 0][1->0][BODY: 3][TYPE: TRANSACTION] {0=14, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 5][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Sending message [ID: 24][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Sending message [ID: 37][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
+19:50:34 - Got message [ID: 20][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 40][SOURCE: 3][2->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 9][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
+19:50:34 - Got message [ID: 8][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=8, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 33][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
-14:30:28 - Sending message [ID: 27][SOURCE: 3][0->2][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
-14:30:28 - Got message [ID: 21][SOURCE: 0][1->0][BODY: 5][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got message [ID: 20][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 42][SOURCE: 3][1->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 21][SOURCE: 0][2->0][BODY: 5][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 7][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
+19:50:34 - Got message [ID: 7][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=7, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 34][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
-14:30:28 - Got message [ID: 15][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 3][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
+19:50:34 - Sending message [ID: 29][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
+19:50:34 - Got message [ID: 2][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 32][SOURCE: 3][0->2][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
-14:30:28 - Got message [ID: 27][SOURCE: 0][1->0][BODY: 7][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got message [ID: 26][SOURCE: 3][1->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 10][SOURCE: 3][0->1][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
+19:50:34 - Got message [ID: 22][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 10][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Got message [ID: 17][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Sending message [ID: 26][SOURCE: 3][0->1][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
+19:50:34 - Sending message [ID: 2][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
+19:50:34 - Got message [ID: 0][SOURCE: 0][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got message [ID: 9][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Rebroadcasting: 1
-14:30:28 - Rebroadcasting: 2
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 36][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
+19:50:34 - Got message [ID: 3][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=3, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 37][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 23][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
+19:50:34 - Got message [ID: 11][SOURCE: 3][2->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 23][SOURCE: 0][1->0][BODY: 4][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Sending message [ID: 37][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
+19:50:34 - Sending message [ID: 17][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
+19:50:34 - Sending message [ID: 10][SOURCE: 3][0->2][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
+19:50:34 - Got message [ID: 10][SOURCE: 0][2->0][BODY: 8][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Got message [ID: 2][SOURCE: 3][1->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 13][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
+19:50:34 - Sending message [ID: 34][SOURCE: 3][0->2][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
+19:50:34 - Sending message [ID: 21][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
+19:50:34 - Got message [ID: 4][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 42][SOURCE: 3][1->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 8][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
+19:50:34 - Sending message [ID: 36][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
+19:50:34 - Got message [ID: 44][SOURCE: 3][2->0][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 0][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 20][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 21][SOURCE: 3][1->0][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 19][SOURCE: 3][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 0][SOURCE: 0][1->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 16][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
+19:50:34 - Got message [ID: 20][SOURCE: 0][1->0][BODY: 1][TYPE: TRANSACTION] {0=20, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 29][SOURCE: 3][0->2][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
-14:30:28 - Got message [ID: 36][SOURCE: 3][1->0][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 24][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
+19:50:34 - Sending message [ID: 7][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
+19:50:34 - Got message [ID: 21][SOURCE: 0][1->0][BODY: 3][TYPE: TRANSACTION] {0=21, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 4][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
-14:30:28 - Got message [ID: 10][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 15][SOURCE: 0][1->0][BODY: 2][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 7][SOURCE: 3][0->1][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=7, 4=0}
-14:30:28 - Sending message [ID: 42][SOURCE: 3][0->1][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
-14:30:28 - Sending message [ID: 39][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
-14:30:28 - Got message [ID: 18][SOURCE: 0][1->0][BODY: 9][TYPE: TRANSACTION] {0=18, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Sending message [ID: 39][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 23][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 15][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=15, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 24][SOURCE: 0][1->0][BODY: 5][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Got own TRANSACTION message back. No rebroadcast.
 
-14:30:28 - Sending message [ID: 35][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
-14:30:28 - Sending message [ID: 11][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
-14:30:28 - Sending message [ID: 42][SOURCE: 3][0->2][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
-14:30:28 - Sending message [ID: 20][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
-14:30:28 - Got message [ID: 4][SOURCE: 0][2->0][BODY: 10][TYPE: TRANSACTION] {0=4, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 5][SOURCE: 0][1->0][BODY: 10][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Sending message [ID: 39][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=39, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 35][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
-14:30:28 - Got message [ID: 28][SOURCE: 0][1->0][BODY: 8][TYPE: TRANSACTION] {0=28, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 0][SOURCE: 0][1->0][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 24][SOURCE: 0][2->0][BODY: 4][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Got message [ID: 23][SOURCE: 3][1->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
-14:30:28 - Sending message [ID: 26][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 29][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 34][SOURCE: 3][1->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 10][SOURCE: 3][1->0][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got own TRANSACTION message back. No rebroadcast.
+19:50:34 - Sending message [ID: 42][SOURCE: 3][0->2][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
+19:50:34 - Got message [ID: 17][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 22][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
-14:30:28 - Got message [ID: 1][SOURCE: 0][1->0][BODY: 8][TYPE: TRANSACTION] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 43][SOURCE: 3][1->0][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 25][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
-14:30:28 - Sending message [ID: 17][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
-14:30:28 - Sending message [ID: 14][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
-14:30:28 - Sending message [ID: 33][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
-14:30:28 - Got message [ID: 22][SOURCE: 0][2->0][BODY: 9][TYPE: TRANSACTION] {0=22, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 4][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
+19:50:34 - Sending message [ID: 6][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
+19:50:34 - Sending message [ID: 16][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
+19:50:34 - Sending message [ID: 24][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=24, 4=0}
+19:50:34 - Sending message [ID: 8][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
+19:50:34 - Got message [ID: 40][SOURCE: 3][1->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
+19:50:34 - Rebroadcasting: 1
+19:50:34 - Rebroadcasting: 2
 
-14:30:28 - Got message [ID: 24][SOURCE: 0][1->0][BODY: 4][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 6][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
+19:50:34 - Sending message [ID: 14][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
+19:50:34 - Got message [ID: 30][SOURCE: 3][2->0][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Got message [ID: 23][SOURCE: 0][2->0][BODY: 4][TYPE: TRANSACTION] {0=23, 1=0, 2=0, 3=0, 4=0}
-14:30:28 - Already had this. Rejecting.
+19:50:34 - Got message [ID: 31][SOURCE: 3][2->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:28 - Sending message [ID: 21][SOURCE: 3][0->2][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
-14:30:28 - Sending message [ID: 9][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
-14:30:28 - Sending message [ID: 4][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
-14:30:28 - Sending message [ID: 19][SOURCE: 3][0->1][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
-14:30:28 - Sending message [ID: 6][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=6, 4=0}
-14:30:28 - Sending message [ID: 44][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
-14:30:29 - Sending message [ID: 36][SOURCE: 3][0->2][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=36, 4=0}
-14:30:29 - Sending message [ID: 17][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
-14:30:29 - Got message [ID: 19][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
-14:30:29 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 41][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
+19:50:34 - Sending message [ID: 5][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
+19:50:34 - Got message [ID: 45][SOURCE: 3][2->0][BODY: 745][TYPE: TELL] {0=0, 1=0, 2=0, 3=45, 4=1}
+19:50:34 - Got message [ID: 10][SOURCE: 0][1->0][BODY: 8][TYPE: TRANSACTION] {0=10, 1=0, 2=0, 3=0, 4=0}
+19:50:34 - Already had this. Rejecting.
 
-14:30:29 - Sending message [ID: 1][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
-14:30:29 - Got message [ID: 17][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=17, 1=0, 2=0, 3=0, 4=0}
-14:30:29 - Already had this. Rejecting.
+19:50:35 - Got message [ID: 25][SOURCE: 0][2->0][BODY: 2][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
+19:50:35 - Got message [ID: 19][SOURCE: 0][1->0][BODY: 1][TYPE: TRANSACTION] {0=19, 1=0, 2=0, 3=0, 4=0}
+19:50:35 - Already had this. Rejecting.
 
-14:30:29 - Sending message [ID: 15][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
-14:30:29 - Sending message [ID: 8][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
-14:30:29 - Got message [ID: 35][SOURCE: 3][1->0][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
-14:30:29 - Already had this. Rejecting.
+19:50:34 - Sending message [ID: 22][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=22, 4=0}
+19:50:35 - Rebroadcasting: 1
+19:50:35 - Rebroadcasting: 2
+19:50:35 - Got own TRANSACTION message back. No rebroadcast.
+
+
+19:50:35 - Sending message [ID: 42][SOURCE: 3][0->1][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=42, 4=0}
+19:50:35 - Sending message [ID: 23][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
+19:50:35 - Sending message [ID: 5][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
+19:50:35 - Sending message [ID: 26][SOURCE: 3][0->2][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
+19:50:35 - Sending message [ID: 25][SOURCE: 3][0->2][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
+19:50:35 - Got message [ID: 25][SOURCE: 0][1->0][BODY: 2][TYPE: TRANSACTION] {0=25, 1=0, 2=0, 3=0, 4=0}
+19:50:35 - Already had this. Rejecting.
 
-14:30:29 - Sending message [ID: 23][SOURCE: 3][0->2][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
-14:30:29 - Sending message [ID: 1][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=1, 4=0}
-14:30:29 - Got message [ID: 45][SOURCE: 3][1->0][BODY: 769][TYPE: TELL] {0=2, 1=0, 2=0, 3=45, 4=1}
-14:30:29 - Rebroadcasting: 1
-14:30:29 - Rebroadcasting: 2
-
-14:30:29 - Sending message [ID: 3][SOURCE: 3][0->1][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
-14:30:29 - Got message [ID: 27][SOURCE: 0][2->0][BODY: 7][TYPE: TRANSACTION] {0=27, 1=0, 2=0, 3=0, 4=0}
-14:30:29 - Already had this. Rejecting.
-
-14:30:29 - Sending message [ID: 15][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
-14:30:29 - Sending message [ID: 43][SOURCE: 3][0->1][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
-14:30:29 - Sending message [ID: 23][SOURCE: 3][0->1][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=23, 4=0}
-14:30:29 - Sending message [ID: 12][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
-14:30:29 - Sending message [ID: 14][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=14, 4=0}
-14:30:29 - Got message [ID: 32][SOURCE: 3][1->0][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
-14:30:29 - Already had this. Rejecting.
+19:50:35 - Got message [ID: 18][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
+19:50:35 - Already had this. Rejecting.
 
-14:30:29 - Sending message [ID: 10][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
-14:30:29 - Got message [ID: 5][SOURCE: 0][1->0][BODY: 5][TYPE: TRANSACTION] {0=5, 1=0, 2=0, 3=0, 4=0}
-14:30:29 - Already had this. Rejecting.
+19:50:35 - Got message [ID: 40][SOURCE: 3][2->0][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
+19:50:35 - Already had this. Rejecting.
 
-14:30:29 - Sending message [ID: 25][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=25, 4=0}
-14:30:29 - Got message [ID: 29][SOURCE: 0][2->0][BODY: 6][TYPE: TRANSACTION] {0=29, 1=0, 2=0, 3=0, 4=0}
-14:30:29 - Already had this. Rejecting.
-
-14:30:29 - Sending message [ID: 31][SOURCE: 3][0->2][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
-14:30:29 - Got message [ID: 13][SOURCE: 0][1->0][BODY: 6][TYPE: TRANSACTION] {0=13, 1=0, 2=0, 3=0, 4=0}
-14:30:29 - Already had this. Rejecting.
-
-14:30:29 - Sending message [ID: 30][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
-14:30:29 - Sending message [ID: 5][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
-14:30:29 - Sending message [ID: 18][SOURCE: 3][0->2][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
-14:30:29 - Sending message [ID: 34][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
-14:30:29 - Sending message [ID: 28][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
-14:30:29 - Sending message [ID: 10][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=10, 4=0}
-14:30:29 - Sending message [ID: 31][SOURCE: 3][0->1][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
-14:30:29 - Sending message [ID: 44][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
-14:30:29 - Sending message [ID: 43][SOURCE: 3][0->2][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
-14:30:29 - Sending message [ID: 37][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
-14:30:29 - Sending message [ID: 9][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
-14:30:29 - Sending message [ID: 16][SOURCE: 3][0->1][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
-14:30:29 - Sending message [ID: 32][SOURCE: 3][0->1][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
-14:30:29 - Sending message [ID: 0][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:29 - Sending message [ID: 21][SOURCE: 3][0->1][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=21, 4=0}
-14:30:29 - Sending message [ID: 2][SOURCE: 3][0->1][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
-14:30:29 - Sending message [ID: 18][SOURCE: 3][0->1][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
-14:30:29 - Sending message [ID: 2][SOURCE: 3][0->2][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
-14:30:29 - Sending message [ID: 8][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=8, 4=0}
-14:30:29 - Sending message [ID: 13][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
-14:30:29 - Sending message [ID: 41][SOURCE: 3][0->1][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
-14:30:29 - Sending message [ID: 16][SOURCE: 3][0->2][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=16, 4=0}
-14:30:29 - Sending message [ID: 40][SOURCE: 3][0->1][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
-14:30:29 - Got message [ID: 45][SOURCE: 3][2->0][BODY: 769][TYPE: TELL] {0=2, 1=0, 2=0, 3=45, 4=1}
-14:30:29 - Already had this. Rejecting.
-
-14:30:29 - Sending message [ID: 13][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
-14:30:29 - Sending message [ID: 41][SOURCE: 3][0->2][BODY: 1][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=41, 4=0}
-14:30:29 - Sending message [ID: 34][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=34, 4=0}
-14:30:29 - Sending message [ID: 45][SOURCE: 3][0->2][BODY: 769][TYPE: TELL] {0=2, 1=0, 2=0, 3=45, 4=1}
-14:30:29 - Sending message [ID: 45][SOURCE: 3][0->1][BODY: 769][TYPE: TELL] {0=2, 1=0, 2=0, 3=45, 4=1}
-14:30:29 - Sending message [ID: 40][SOURCE: 3][0->2][BODY: 9][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
-14:30:30 - Sending message [ID: 28][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
-14:30:30 - Sending message [ID: 5][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=5, 4=0}
-14:30:30 - Sending message [ID: 0][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:30 - Sending message [ID: 3][SOURCE: 3][0->2][BODY: 7][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
-14:30:30 - Sending message [ID: 30][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
-14:30:30 - Sending message [ID: 26][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=26, 4=0}
-14:30:30 - Sending message [ID: 37][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=37, 4=0}
-14:30:30 - Got message [ID: 0][SOURCE: 4][2->0][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:30 - Rebroadcasting: 1
-14:30:30 - Rebroadcasting: 2
-
-14:30:30 - Got message [ID: 0][SOURCE: 4][1->0][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:30 - Already had this. Rejecting.
-
-14:30:30 - Got message [ID: 0][SOURCE: 1][1->0][BODY: 1170][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:30 - Rebroadcasting: 1
-14:30:30 - Rebroadcasting: 2
-
-14:30:30 - Got message [ID: 1][SOURCE: 4][2->0][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
-14:30:30 - Rebroadcasting: 1
-14:30:30 - Rebroadcasting: 2
-
-14:30:30 - Got message [ID: 0][SOURCE: 2][2->0][BODY: 1164][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:30 - Rebroadcasting: 1
-14:30:30 - Rebroadcasting: 2
-
-14:30:31 - Sending message [ID: 0][SOURCE: 4][0->2][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:31 - Sending message [ID: 30][SOURCE: 0][0->2][BODY: 819][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:31 - Sending message [ID: 1][SOURCE: 4][0->1][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
-14:30:31 - Sending message [ID: 0][SOURCE: 2][0->2][BODY: 1164][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:31 - Got message [ID: 1][SOURCE: 4][1->0][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
-14:30:31 - Already had this. Rejecting.
-
-14:30:31 - Sending message [ID: 1][SOURCE: 4][0->2][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
-14:30:31 - Sending message [ID: 0][SOURCE: 2][0->1][BODY: 1164][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:31 - Sending message [ID: 30][SOURCE: 0][0->1][BODY: 819][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:31 - Sending message [ID: 0][SOURCE: 4][0->1][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:30:31 - Sending message [ID: 0][SOURCE: 1][0->1][BODY: 1170][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:31 - Sending message [ID: 0][SOURCE: 1][0->2][BODY: 1170][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:32 - Got message [ID: 0][SOURCE: 1][2->0][BODY: 1170][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:32 - Already had this. Rejecting.
-
-14:30:32 - Got message [ID: 30][SOURCE: 0][2->0][BODY: 819][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:32 - Got own TELL message back. No rebroadcast.
-
-14:30:33 - Got message [ID: 30][SOURCE: 0][1->0][BODY: 819][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:33 - Already had this. Rejecting.
-
-14:30:33 - Got message [ID: 0][SOURCE: 2][1->0][BODY: 1164][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
-14:30:33 - Already had this. Rejecting.
-
-14:30:37 - Got message [ID: 2][SOURCE: 4][2->0][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
-14:30:37 - Rebroadcasting: 1
-14:30:37 - Rebroadcasting: 2
-
-14:30:37 - Got message [ID: 2][SOURCE: 4][1->0][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
-14:30:37 - Already had this. Rejecting.
-
-14:30:38 - Sending message [ID: 2][SOURCE: 4][0->2][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
-14:30:38 - Sending message [ID: 2][SOURCE: 4][0->1][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
-14:30:48 - Got message [ID: 4][SOURCE: 4][2->0][BODY: 1078][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
-14:30:48 - Rebroadcasting: 1
-14:30:48 - Rebroadcasting: 2
-
-14:30:48 - Got message [ID: 3][SOURCE: 4][1->0][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
-14:30:48 - Rebroadcasting: 1
-14:30:48 - Rebroadcasting: 2
-
-14:30:48 - Got message [ID: 4][SOURCE: 4][1->0][BODY: 1078][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
-14:30:48 - Already had this. Rejecting.
-
-14:30:48 - Got message [ID: 1][SOURCE: 1][1->0][BODY: 1170][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:48 - Rebroadcasting: 1
-14:30:48 - Rebroadcasting: 2
-
-14:30:48 - Got message [ID: 1][SOURCE: 2][2->0][BODY: 1164][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:48 - Rebroadcasting: 1
-14:30:48 - Rebroadcasting: 2
-
-14:30:48 - Sending message [ID: 4][SOURCE: 4][0->1][BODY: 1078][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
-14:30:49 - Sending message [ID: 3][SOURCE: 4][0->2][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
-14:30:49 - Sending message [ID: 31][SOURCE: 0][0->1][BODY: 819][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Sending message [ID: 3][SOURCE: 4][0->1][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
-14:30:49 - Sending message [ID: 31][SOURCE: 0][0->2][BODY: 819][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Sending message [ID: 1][SOURCE: 2][0->2][BODY: 1164][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Sending message [ID: 1][SOURCE: 1][0->2][BODY: 1170][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Sending message [ID: 4][SOURCE: 4][0->2][BODY: 1078][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
-14:30:49 - Got message [ID: 46][SOURCE: 3][1->0][BODY: 769][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Rebroadcasting: 1
-14:30:49 - Rebroadcasting: 2
-
-14:30:49 - Got message [ID: 3][SOURCE: 4][2->0][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
-14:30:49 - Already had this. Rejecting.
-
-14:30:49 - Got message [ID: 46][SOURCE: 3][2->0][BODY: 769][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Already had this. Rejecting.
-
-14:30:49 - Sending message [ID: 1][SOURCE: 1][0->1][BODY: 1170][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Got message [ID: 31][SOURCE: 0][1->0][BODY: 819][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Got own TELL message back. No rebroadcast.
-
-14:30:49 - Got message [ID: 31][SOURCE: 0][2->0][BODY: 819][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:49 - Already had this. Rejecting.
-
-14:30:50 - Sending message [ID: 1][SOURCE: 2][0->1][BODY: 1164][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:50 - Sending message [ID: 46][SOURCE: 3][0->2][BODY: 769][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:50 - Got message [ID: 1][SOURCE: 1][2->0][BODY: 1170][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:50 - Already had this. Rejecting.
-
-14:30:50 - Sending message [ID: 46][SOURCE: 3][0->1][BODY: 769][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:51 - Got message [ID: 1][SOURCE: 2][1->0][BODY: 1164][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
-14:30:51 - Already had this. Rejecting.
-
-14:30:54 - Got message [ID: 5][SOURCE: 4][2->0][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
-14:30:54 - Rebroadcasting: 1
-14:30:54 - Rebroadcasting: 2
-
-14:30:54 - Got message [ID: 5][SOURCE: 4][1->0][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
-14:30:54 - Already had this. Rejecting.
-
-14:30:54 - Sending message [ID: 5][SOURCE: 4][0->1][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
-14:30:55 - Sending message [ID: 5][SOURCE: 4][0->2][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
-
-14:31:05 - My info: [0|localhost:1100]
-14:31:05 - My neighbours ID's: 1 2 
-
-14:31:05 - Currently committed messages:
-14:31:05 - Message 0: TRANSACTION:2 from 0
-14:31:05 - Message 1: TRANSACTION:8 from 0
-14:31:05 - Message 2: TRANSACTION:3 from 0
-14:31:05 - Message 3: TRANSACTION:5 from 0
-14:31:05 - Message 4: TRANSACTION:10 from 0
-14:31:05 - Message 5: TRANSACTION:5 from 0
-14:31:05 - Message 6: TRANSACTION:6 from 0
-14:31:05 - Message 7: TRANSACTION:9 from 0
-14:31:05 - Message 8: TRANSACTION:6 from 0
-14:31:05 - Message 9: TRANSACTION:6 from 0
-14:31:05 - Message 10: TRANSACTION:6 from 0
-14:31:05 - Message 11: TRANSACTION:7 from 0
-14:31:05 - Message 12: TRANSACTION:7 from 0
-14:31:05 - Message 13: TRANSACTION:6 from 0
-14:31:05 - Message 14: TRANSACTION:3 from 0
-14:31:05 - Message 15: TRANSACTION:10 from 0
-14:31:05 - Message 16: TRANSACTION:6 from 0
-14:31:05 - Message 17: TRANSACTION:6 from 0
-14:31:05 - Message 18: TRANSACTION:9 from 0
-14:31:05 - Message 19: TRANSACTION:6 from 0
-14:31:05 - Message 20: TRANSACTION:4 from 0
-14:31:05 - Message 21: TRANSACTION:5 from 0
-14:31:05 - Message 22: TRANSACTION:9 from 0
-14:31:05 - Message 23: TRANSACTION:4 from 0
-14:31:05 - Message 24: TRANSACTION:4 from 0
-14:31:05 - Message 25: TRANSACTION:1 from 0
-14:31:05 - Message 26: TRANSACTION:7 from 0
-14:31:05 - Message 27: TRANSACTION:7 from 0
-14:31:05 - Message 28: TRANSACTION:8 from 0
-14:31:05 - Message 29: TRANSACTION:6 from 0
-14:31:05 - Message 30: TRANSACTION:3 from 3
-14:31:05 - Message 31: TRANSACTION:4 from 3
-14:31:05 - Message 32: TRANSACTION:7 from 3
-14:31:05 - Message 33: TRANSACTION:7 from 3
-14:31:05 - Message 34: TRANSACTION:8 from 3
-14:31:05 - Message 35: TRANSACTION:3 from 3
-14:31:05 - Message 36: TRANSACTION:5 from 3
-14:31:05 - Message 37: TRANSACTION:2 from 3
-14:31:05 - Message 38: TRANSACTION:10 from 3
-14:31:05 - Message 39: TRANSACTION:8 from 3
-14:31:05 - Message 40: TRANSACTION:3 from 3
-14:31:05 - Message 41: TRANSACTION:8 from 3
-14:31:05 - Message 42: TRANSACTION:3 from 3
-14:31:05 - Message 43: TRANSACTION:5 from 3
-14:31:05 - Message 44: TRANSACTION:6 from 3
-14:31:05 - Message 45: TRANSACTION:10 from 3
-14:31:05 - Message 46: TRANSACTION:1 from 3
-14:31:05 - Message 47: TRANSACTION:3 from 3
-14:31:05 - Message 48: TRANSACTION:1 from 3
-14:31:05 - Message 49: TRANSACTION:7 from 3
-14:31:05 - Message 50: TRANSACTION:8 from 3
-14:31:05 - Message 51: TRANSACTION:9 from 3
-14:31:05 - Message 52: TRANSACTION:8 from 3
-14:31:05 - Message 53: TRANSACTION:1 from 3
-14:31:05 - Message 54: TRANSACTION:3 from 3
-14:31:05 - Message 55: TRANSACTION:3 from 3
-14:31:05 - Message 56: TRANSACTION:10 from 3
-14:31:05 - Message 57: TRANSACTION:2 from 3
-14:31:05 - Message 58: TRANSACTION:6 from 3
-14:31:05 - Message 59: TRANSACTION:7 from 3
-14:31:05 - Message 60: TRANSACTION:3 from 3
-14:31:05 - Message 61: TRANSACTION:2 from 3
-14:31:05 - Message 62: TRANSACTION:1 from 3
-14:31:05 - Message 63: TRANSACTION:4 from 3
-14:31:05 - Message 64: TRANSACTION:3 from 3
-14:31:05 - Message 65: TRANSACTION:6 from 3
-14:31:05 - Message 66: TRANSACTION:7 from 3
-14:31:05 - Message 67: TRANSACTION:3 from 3
-14:31:05 - Message 68: TRANSACTION:4 from 3
-14:31:05 - Message 69: TRANSACTION:8 from 3
-14:31:05 - Message 70: TRANSACTION:9 from 3
-14:31:05 - Message 71: TRANSACTION:1 from 3
-14:31:05 - Message 72: TRANSACTION:7 from 3
-14:31:05 - Message 73: TRANSACTION:9 from 3
-14:31:05 - Message 74: TRANSACTION:3 from 3
-14:31:05 - Message 75: ASK:ASK from 4
-14:31:05 - Message 76: TELL:769 from 3
-14:31:05 - Message 77: TELL:819 from 0
-14:31:05 - Message 78: TELL:1170 from 1
-14:31:05 - Message 79: TELL:1000 from 4
-14:31:05 - Message 80: TELL:1164 from 2
-14:31:05 - Message 81: TERMINATE:TERMINATE from 4
-14:31:05 - Message 82: ASK:ASK from 4
-14:31:05 - Message 83: TELL:1078 from 4
-14:31:05 - Message 84: TELL:819 from 0
-14:31:05 - Message 85: TELL:1170 from 1
-14:31:05 - Message 86: TELL:1164 from 2
-14:31:05 - Message 87: TELL:769 from 3
-14:31:05 - Message 88: TERMINATE:TERMINATE from 4
+19:50:35 - Got message [ID: 24][SOURCE: 0][2->0][BODY: 5][TYPE: TRANSACTION] {0=24, 1=0, 2=0, 3=0, 4=0}
+19:50:35 - Already had this. Rejecting.
+
+19:50:35 - Got message [ID: 0][SOURCE: 4][1->0][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:35 - Sending message [ID: 29][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=29, 4=0}
+19:50:35 - Rebroadcasting: 1
+19:50:35 - Rebroadcasting: 2
+
+19:50:35 - Sending message [ID: 35][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
+19:50:35 - Sending message [ID: 13][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=13, 4=0}
+19:50:35 - Sending message [ID: 3][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=3, 4=0}
+19:50:35 - Sending message [ID: 15][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
+19:50:35 - Sending message [ID: 18][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
+19:50:35 - Sending message [ID: 9][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=9, 4=0}
+19:50:35 - Sending message [ID: 11][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
+19:50:35 - Sending message [ID: 18][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=18, 4=0}
+19:50:35 - Sending message [ID: 32][SOURCE: 3][0->1][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
+19:50:35 - Sending message [ID: 44][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
+19:50:35 - Sending message [ID: 27][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
+19:50:35 - Sending message [ID: 30][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
+19:50:35 - Sending message [ID: 15][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=15, 4=0}
+19:50:35 - Sending message [ID: 40][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
+19:50:35 - Sending message [ID: 30][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=30, 4=0}
+19:50:35 - Sending message [ID: 11][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=11, 4=0}
+19:50:35 - Got message [ID: 45][SOURCE: 3][1->0][BODY: 745][TYPE: TELL] {0=0, 1=0, 2=0, 3=45, 4=1}
+19:50:35 - Already had this. Rejecting.
+
+19:50:35 - Sending message [ID: 38][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
+19:50:35 - Sending message [ID: 35][SOURCE: 3][0->2][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=35, 4=0}
+19:50:35 - Sending message [ID: 20][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
+19:50:35 - Got message [ID: 1][SOURCE: 4][2->0][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
+19:50:35 - Rebroadcasting: 1
+19:50:35 - Rebroadcasting: 2
+
+19:50:35 - Sending message [ID: 44][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=44, 4=0}
+19:50:35 - Sending message [ID: 43][SOURCE: 3][0->1][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
+19:50:35 - Got message [ID: 1][SOURCE: 4][1->0][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
+19:50:35 - Already had this. Rejecting.
+
+19:50:35 - Got message [ID: 0][SOURCE: 1][1->0][BODY: 1167][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:35 - Rebroadcasting: 1
+19:50:35 - Rebroadcasting: 2
+
+19:50:35 - Sending message [ID: 32][SOURCE: 3][0->2][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=32, 4=0}
+19:50:35 - Got message [ID: 0][SOURCE: 2][2->0][BODY: 1148][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:35 - Sending message [ID: 33][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=33, 4=0}
+19:50:35 - Rebroadcasting: 1
+19:50:35 - Rebroadcasting: 2
+
+19:50:35 - Sending message [ID: 2][SOURCE: 3][0->2][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=2, 4=0}
+19:50:35 - Sending message [ID: 0][SOURCE: 4][0->2][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:35 - Sending message [ID: 30][SOURCE: 0][0->1][BODY: 837][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:35 - Sending message [ID: 45][SOURCE: 3][0->1][BODY: 745][TYPE: TELL] {0=0, 1=0, 2=0, 3=45, 4=1}
+19:50:35 - Sending message [ID: 28][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
+19:50:35 - Sending message [ID: 27][SOURCE: 3][0->1][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=27, 4=0}
+19:50:35 - Sending message [ID: 31][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
+19:50:35 - Sending message [ID: 31][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=31, 4=0}
+19:50:36 - Sending message [ID: 28][SOURCE: 3][0->2][BODY: 3][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=28, 4=0}
+19:50:36 - Sending message [ID: 17][SOURCE: 3][0->2][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=17, 4=0}
+19:50:36 - Sending message [ID: 12][SOURCE: 3][0->2][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
+19:50:36 - Sending message [ID: 12][SOURCE: 3][0->1][BODY: 2][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=12, 4=0}
+19:50:36 - Sending message [ID: 4][SOURCE: 3][0->1][BODY: 10][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=4, 4=0}
+19:50:36 - Sending message [ID: 38][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=38, 4=0}
+19:50:36 - Sending message [ID: 20][SOURCE: 3][0->1][BODY: 6][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=20, 4=0}
+19:50:36 - Sending message [ID: 19][SOURCE: 3][0->2][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
+19:50:36 - Sending message [ID: 45][SOURCE: 3][0->2][BODY: 745][TYPE: TELL] {0=0, 1=0, 2=0, 3=45, 4=1}
+19:50:36 - Sending message [ID: 19][SOURCE: 3][0->1][BODY: 8][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=19, 4=0}
+19:50:36 - Sending message [ID: 40][SOURCE: 3][0->1][BODY: 4][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=40, 4=0}
+19:50:36 - Sending message [ID: 0][SOURCE: 1][0->2][BODY: 1167][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:36 - Sending message [ID: 0][SOURCE: 2][0->1][BODY: 1148][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:36 - Sending message [ID: 43][SOURCE: 3][0->2][BODY: 5][TYPE: TRANSACTION] {0=0, 1=0, 2=0, 3=43, 4=0}
+19:50:36 - Got message [ID: 0][SOURCE: 4][2->0][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:36 - Already had this. Rejecting.
+
+19:50:36 - Sending message [ID: 0][SOURCE: 2][0->2][BODY: 1148][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:36 - Sending message [ID: 0][SOURCE: 4][0->1][BODY: ASK][TYPE: ASK] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:50:36 - Sending message [ID: 30][SOURCE: 0][0->2][BODY: 837][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:36 - Sending message [ID: 0][SOURCE: 1][0->1][BODY: 1167][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:36 - Got message [ID: 0][SOURCE: 2][1->0][BODY: 1148][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:36 - Already had this. Rejecting.
+
+19:50:36 - Sending message [ID: 1][SOURCE: 4][0->1][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
+19:50:36 - Sending message [ID: 1][SOURCE: 4][0->2][BODY: 1000][TYPE: TELL] {0=0, 1=0, 2=0, 3=0, 4=1}
+19:50:37 - Got message [ID: 30][SOURCE: 0][1->0][BODY: 837][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:37 - Got own TELL message back. No rebroadcast.
+
+19:50:37 - Got message [ID: 0][SOURCE: 1][2->0][BODY: 1167][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:37 - Already had this. Rejecting.
+
+19:50:37 - Got message [ID: 30][SOURCE: 0][2->0][BODY: 837][TYPE: TELL] {0=30, 1=0, 2=0, 3=46, 4=1}
+19:50:37 - Already had this. Rejecting.
+
+19:50:41 - Got message [ID: 2][SOURCE: 4][2->0][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
+19:50:41 - Rebroadcasting: 1
+19:50:41 - Rebroadcasting: 2
+
+19:50:42 - Sending message [ID: 2][SOURCE: 4][0->2][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
+19:50:42 - Sending message [ID: 2][SOURCE: 4][0->1][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
+19:50:42 - Got message [ID: 2][SOURCE: 4][1->0][BODY: TERMINATE][TYPE: TERMINATE] {0=31, 1=1, 2=1, 3=46, 4=2}
+19:50:42 - Already had this. Rejecting.
+
+19:50:54 - Got message [ID: 4][SOURCE: 4][2->0][BODY: 1103][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:54 - Rebroadcasting: 1
+19:50:54 - Rebroadcasting: 2
+
+19:50:54 - Got message [ID: 46][SOURCE: 3][2->0][BODY: 745][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:54 - Rebroadcasting: 1
+19:50:54 - Rebroadcasting: 2
+
+19:50:54 - Got message [ID: 3][SOURCE: 4][1->0][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
+19:50:54 - Rebroadcasting: 1
+19:50:54 - Rebroadcasting: 2
+
+19:50:54 - Got message [ID: 3][SOURCE: 4][2->0][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
+19:50:54 - Already had this. Rejecting.
+
+19:50:54 - Got message [ID: 1][SOURCE: 2][2->0][BODY: 1148][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:54 - Rebroadcasting: 1
+19:50:54 - Rebroadcasting: 2
+
+19:50:55 - Sending message [ID: 4][SOURCE: 4][0->1][BODY: 1103][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:55 - Got message [ID: 1][SOURCE: 1][1->0][BODY: 1167][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:55 - Rebroadcasting: 1
+19:50:55 - Rebroadcasting: 2
+
+19:50:55 - Got message [ID: 4][SOURCE: 4][1->0][BODY: 1103][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:55 - Already had this. Rejecting.
+
+19:50:55 - Got message [ID: 46][SOURCE: 3][1->0][BODY: 745][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:55 - Already had this. Rejecting.
+
+19:50:55 - Sending message [ID: 3][SOURCE: 4][0->1][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
+19:50:55 - Sending message [ID: 4][SOURCE: 4][0->2][BODY: 1103][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:55 - Sending message [ID: 31][SOURCE: 0][0->2][BODY: 837][TYPE: TELL] {0=31, 1=1, 2=1, 3=47, 4=5}
+19:50:55 - Sending message [ID: 46][SOURCE: 3][0->1][BODY: 745][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:55 - Sending message [ID: 31][SOURCE: 0][0->1][BODY: 837][TYPE: TELL] {0=31, 1=1, 2=1, 3=47, 4=5}
+19:50:55 - Sending message [ID: 1][SOURCE: 2][0->1][BODY: 1148][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:55 - Sending message [ID: 1][SOURCE: 2][0->2][BODY: 1148][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:56 - Sending message [ID: 3][SOURCE: 4][0->2][BODY: ASK][TYPE: ASK] {0=31, 1=1, 2=1, 3=46, 4=3}
+19:50:56 - Sending message [ID: 46][SOURCE: 3][0->2][BODY: 745][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:56 - Sending message [ID: 1][SOURCE: 1][0->2][BODY: 1167][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:56 - Sending message [ID: 1][SOURCE: 1][0->1][BODY: 1167][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:56 - Got message [ID: 1][SOURCE: 2][1->0][BODY: 1148][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=5}
+19:50:56 - Already had this. Rejecting.
+
+19:50:56 - Got message [ID: 31][SOURCE: 0][1->0][BODY: 837][TYPE: TELL] {0=31, 1=1, 2=1, 3=47, 4=5}
+19:50:56 - Got own TELL message back. No rebroadcast.
+
+19:50:56 - Got message [ID: 1][SOURCE: 1][2->0][BODY: 1167][TYPE: TELL] {0=31, 1=1, 2=1, 3=46, 4=4}
+19:50:56 - Already had this. Rejecting.
+
+19:50:56 - Got message [ID: 31][SOURCE: 0][2->0][BODY: 837][TYPE: TELL] {0=31, 1=1, 2=1, 3=47, 4=5}
+19:50:56 - Already had this. Rejecting.
+
+19:51:00 - Got message [ID: 5][SOURCE: 4][1->0][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
+19:51:00 - Rebroadcasting: 1
+19:51:00 - Rebroadcasting: 2
+
+19:51:01 - Got message [ID: 5][SOURCE: 4][2->0][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
+19:51:01 - Already had this. Rejecting.
+
+19:51:01 - Sending message [ID: 5][SOURCE: 4][0->1][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
+19:51:02 - Sending message [ID: 5][SOURCE: 4][0->2][BODY: TERMINATE][TYPE: TERMINATE] {0=32, 1=2, 2=2, 3=47, 4=5}
+
+19:51:11 - My info: [0|localhost:1100]
+19:51:11 - My neighbours ID's: 1 2 
+
+19:51:11 - Currently committed messages:
+19:51:11 - Message 0: TRANSACTION:8 from 0
+19:51:11 - Message 1: TRANSACTION:2 from 0
+19:51:11 - Message 2: TRANSACTION:10 from 0
+19:51:11 - Message 3: TRANSACTION:10 from 0
+19:51:11 - Message 4: TRANSACTION:10 from 0
+19:51:11 - Message 5: TRANSACTION:10 from 0
+19:51:11 - Message 6: TRANSACTION:8 from 0
+19:51:11 - Message 7: TRANSACTION:10 from 0
+19:51:11 - Message 8: TRANSACTION:10 from 0
+19:51:11 - Message 9: TRANSACTION:9 from 0
+19:51:11 - Message 10: TRANSACTION:8 from 0
+19:51:11 - Message 11: TRANSACTION:2 from 0
+19:51:11 - Message 12: TRANSACTION:4 from 0
+19:51:11 - Message 13: TRANSACTION:1 from 0
+19:51:11 - Message 14: TRANSACTION:7 from 0
+19:51:11 - Message 15: TRANSACTION:2 from 0
+19:51:11 - Message 16: TRANSACTION:3 from 0
+19:51:11 - Message 17: TRANSACTION:6 from 0
+19:51:11 - Message 18: TRANSACTION:7 from 0
+19:51:11 - Message 19: TRANSACTION:1 from 0
+19:51:11 - Message 20: TRANSACTION:1 from 0
+19:51:11 - Message 21: TRANSACTION:3 from 0
+19:51:11 - Message 22: TRANSACTION:6 from 0
+19:51:11 - Message 23: TRANSACTION:10 from 0
+19:51:11 - Message 24: TRANSACTION:5 from 0
+19:51:11 - Message 25: TRANSACTION:2 from 0
+19:51:11 - Message 26: TRANSACTION:1 from 0
+19:51:11 - Message 27: TRANSACTION:1 from 0
+19:51:11 - Message 28: TRANSACTION:1 from 0
+19:51:11 - Message 29: TRANSACTION:5 from 0
+19:51:11 - Message 30: TRANSACTION:10 from 3
+19:51:11 - Message 31: TRANSACTION:6 from 3
+19:51:11 - Message 32: TRANSACTION:4 from 3
+19:51:11 - Message 33: TRANSACTION:5 from 3
+19:51:11 - Message 34: TRANSACTION:10 from 3
+19:51:11 - Message 35: TRANSACTION:8 from 3
+19:51:11 - Message 36: TRANSACTION:4 from 3
+19:51:11 - Message 37: TRANSACTION:5 from 3
+19:51:11 - Message 38: TRANSACTION:8 from 3
+19:51:11 - Message 39: TRANSACTION:8 from 3
+19:51:11 - Message 40: TRANSACTION:2 from 3
+19:51:11 - Message 41: TRANSACTION:8 from 3
+19:51:11 - Message 42: TRANSACTION:2 from 3
+19:51:11 - Message 43: TRANSACTION:3 from 3
+19:51:11 - Message 44: TRANSACTION:5 from 3
+19:51:11 - Message 45: TRANSACTION:4 from 3
+19:51:11 - Message 46: TRANSACTION:4 from 3
+19:51:11 - Message 47: TRANSACTION:6 from 3
+19:51:11 - Message 48: TRANSACTION:4 from 3
+19:51:11 - Message 49: TRANSACTION:8 from 3
+19:51:11 - Message 50: TRANSACTION:6 from 3
+19:51:11 - Message 51: TRANSACTION:8 from 3
+19:51:11 - Message 52: TRANSACTION:4 from 3
+19:51:11 - Message 53: TRANSACTION:6 from 3
+19:51:11 - Message 54: TRANSACTION:3 from 3
+19:51:11 - Message 55: TRANSACTION:1 from 3
+19:51:11 - Message 56: TRANSACTION:9 from 3
+19:51:11 - Message 57: TRANSACTION:3 from 3
+19:51:11 - Message 58: TRANSACTION:3 from 3
+19:51:11 - Message 59: TRANSACTION:6 from 3
+19:51:11 - Message 60: TRANSACTION:3 from 3
+19:51:11 - Message 61: TRANSACTION:6 from 3
+19:51:11 - Message 62: TRANSACTION:2 from 3
+19:51:11 - Message 63: TRANSACTION:10 from 3
+19:51:11 - Message 64: TRANSACTION:7 from 3
+19:51:11 - Message 65: TRANSACTION:10 from 3
+19:51:11 - Message 66: TRANSACTION:5 from 3
+19:51:11 - Message 67: TRANSACTION:6 from 3
+19:51:11 - Message 68: TRANSACTION:5 from 3
+19:51:11 - Message 69: TRANSACTION:8 from 3
+19:51:11 - Message 70: TRANSACTION:4 from 3
+19:51:11 - Message 71: TRANSACTION:10 from 3
+19:51:11 - Message 72: TRANSACTION:1 from 3
+19:51:11 - Message 73: TRANSACTION:5 from 3
+19:51:11 - Message 74: TRANSACTION:10 from 3
+19:51:11 - Message 75: ASK:ASK from 4
+19:51:11 - Message 76: TELL:745 from 3
+19:51:11 - Message 77: TELL:837 from 0
+19:51:11 - Message 78: TELL:1000 from 4
+19:51:11 - Message 79: TELL:1167 from 1
+19:51:11 - Message 80: TELL:1148 from 2
+19:51:11 - Message 81: TERMINATE:TERMINATE from 4
+19:51:11 - Message 82: ASK:ASK from 4
+19:51:11 - Message 83: TELL:1103 from 4
+19:51:11 - Message 84: TELL:745 from 3
+19:51:11 - Message 85: TELL:837 from 0
+19:51:11 - Message 86: TELL:1148 from 2
+19:51:11 - Message 87: TELL:1167 from 1
+19:51:11 - Message 88: TERMINATE:TERMINATE from 4
 
 Vector clock: {0=32, 1=2, 2=2, 3=47, 4=6}
 
 
-Balance: 819
+Balance: 837
 
-14:31:05 - Stopping...
+19:51:11 - Stopping...

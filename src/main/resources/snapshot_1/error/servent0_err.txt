@@ -1,3 +1,0 @@
-14:22:40 - Servent 0 did not receive 0 tokens from Servent 1
-14:22:40 - Servent 0 did not receive 0 tokens from Servent 2
-14:22:40 - - - - - - - - - - - - - - - -

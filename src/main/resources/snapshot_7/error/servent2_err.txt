@@ -1,0 +1,6 @@
+20:06:27 - Servent 2 did not receive 88 tokens from Servent 0
+20:06:27 - Servent 2 did not receive 85 tokens from Servent 3
+20:06:27 - - - - - - - - - - - - - - - -
+20:07:08 - Servent 2 did not receive 0 tokens from Servent 0
+20:07:08 - Servent 2 did not receive 0 tokens from Servent 3
+20:07:08 - - - - - - - - - - - - - - - -

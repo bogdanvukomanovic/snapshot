@@ -1,40 +1,40 @@
-14:17:28 - Starting servent [4|localhost:1500]
+19:44:56 - Starting servent [4|localhost:1500]
 
-14:17:29 - My info: [4|localhost:1500]
-14:17:29 - My neighbours ID's: 3 
+19:44:56 - My info: [4|localhost:1500]
+19:44:56 - My neighbours ID's: 3 
 
-14:17:29 - Currently committed messages:
+19:44:56 - Currently committed messages:
 
 Vector clock: {0=0, 1=0, 2=0, 3=0, 4=0}
 
 
 Balance: 1000
 
-14:17:29 - Pausing for 15000 ms
-14:17:33 - Got message [ID: 0][SOURCE: 0][3->4][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:33 - Rebroadcasting: 3
+19:44:56 - Pausing for 15000 ms
+19:45:02 - Got message [ID: 0][SOURCE: 1][3->4][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Rebroadcasting: 3
 
-14:17:33 - Got message [ID: 0][SOURCE: 1][3->4][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:33 - Rebroadcasting: 3
+19:45:02 - Got message [ID: 0][SOURCE: 0][3->4][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Rebroadcasting: 3
 
-14:17:34 - Sending message [ID: 0][SOURCE: 1][4->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:34 - Sending message [ID: 0][SOURCE: 0][4->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:38 - Got message [ID: 0][SOURCE: 2][3->4][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
-14:17:38 - Rebroadcasting: 3
+19:45:03 - Sending message [ID: 0][SOURCE: 0][4->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:04 - Sending message [ID: 0][SOURCE: 1][4->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:05 - Got message [ID: 0][SOURCE: 2][3->4][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:05 - Rebroadcasting: 3
 
-14:17:39 - Sending message [ID: 0][SOURCE: 2][4->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:06 - Sending message [ID: 0][SOURCE: 2][4->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
 
-14:17:44 - My info: [4|localhost:1500]
-14:17:44 - My neighbours ID's: 3 
+19:45:11 - My info: [4|localhost:1500]
+19:45:11 - My neighbours ID's: 3 
 
-14:17:44 - Currently committed messages:
-14:17:44 - Message 0: BROADCAST:a from 0
-14:17:44 - Message 1: BROADCAST:b from 1
-14:17:44 - Message 2: BROADCAST:c from 2
+19:45:11 - Currently committed messages:
+19:45:11 - Message 0: BROADCAST:a from 0
+19:45:11 - Message 1: BROADCAST:b from 1
+19:45:11 - Message 2: BROADCAST:c from 2
 
 Vector clock: {0=1, 1=1, 2=1, 3=0, 4=0}
 
 
 Balance: 1000
 
-14:17:44 - Stopping...
+19:45:11 - Stopping...

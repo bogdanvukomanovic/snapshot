@@ -1,70 +1,70 @@
-14:17:28 - Starting servent [3|localhost:1400]
+19:44:56 - Starting servent [3|localhost:1400]
 
-14:17:29 - My info: [3|localhost:1400]
-14:17:29 - My neighbours ID's: 1 2 4 
+19:44:56 - My info: [3|localhost:1400]
+19:44:56 - My neighbours ID's: 1 2 4 
 
-14:17:29 - Currently committed messages:
+19:44:56 - Currently committed messages:
 
 Vector clock: {0=0, 1=0, 2=0, 3=0, 4=0}
 
 
 Balance: 1000
 
-14:17:29 - Pausing for 15000 ms
-14:17:32 - Got message [ID: 0][SOURCE: 0][2->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:32 - Rebroadcasting: 1
-14:17:32 - Rebroadcasting: 2
-14:17:32 - Rebroadcasting: 4
+19:44:56 - Pausing for 15000 ms
+19:45:01 - Got message [ID: 0][SOURCE: 0][2->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:01 - Rebroadcasting: 1
+19:45:01 - Rebroadcasting: 2
+19:45:01 - Rebroadcasting: 4
 
-14:17:32 - Got message [ID: 0][SOURCE: 0][1->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:32 - Already had this. Rejecting.
+19:45:01 - Got message [ID: 0][SOURCE: 0][1->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:01 - Already had this. Rejecting.
 
-14:17:32 - Got message [ID: 0][SOURCE: 1][1->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:32 - Rebroadcasting: 1
-14:17:32 - Rebroadcasting: 2
-14:17:32 - Rebroadcasting: 4
+19:45:01 - Got message [ID: 0][SOURCE: 1][1->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:01 - Rebroadcasting: 1
+19:45:01 - Rebroadcasting: 2
+19:45:01 - Rebroadcasting: 4
 
-14:17:33 - Sending message [ID: 0][SOURCE: 0][3->4][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:33 - Sending message [ID: 0][SOURCE: 0][3->1][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:33 - Sending message [ID: 0][SOURCE: 1][3->4][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:33 - Sending message [ID: 0][SOURCE: 0][3->2][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:33 - Sending message [ID: 0][SOURCE: 1][3->2][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:34 - Sending message [ID: 0][SOURCE: 1][3->1][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:34 - Got message [ID: 0][SOURCE: 1][4->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:34 - Already had this. Rejecting.
+19:45:01 - Sending message [ID: 0][SOURCE: 0][3->1][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Sending message [ID: 0][SOURCE: 1][3->4][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Sending message [ID: 0][SOURCE: 0][3->2][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Sending message [ID: 0][SOURCE: 0][3->4][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Sending message [ID: 0][SOURCE: 1][3->1][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Sending message [ID: 0][SOURCE: 1][3->2][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Got message [ID: 0][SOURCE: 1][2->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:02 - Already had this. Rejecting.
 
-14:17:34 - Got message [ID: 0][SOURCE: 0][4->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
-14:17:34 - Already had this. Rejecting.
+19:45:04 - Got message [ID: 0][SOURCE: 0][4->3][BODY: a][TYPE: BROADCAST] {0=0, 1=0, 2=0, 3=0, 4=0}
+19:45:04 - Already had this. Rejecting.
 
-14:17:35 - Got message [ID: 0][SOURCE: 1][2->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
-14:17:35 - Already had this. Rejecting.
+19:45:04 - Got message [ID: 0][SOURCE: 1][4->3][BODY: b][TYPE: BROADCAST] {0=1, 1=0, 2=0, 3=0, 4=0}
+19:45:04 - Already had this. Rejecting.
 
-14:17:37 - Got message [ID: 0][SOURCE: 2][2->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
-14:17:37 - Rebroadcasting: 1
-14:17:37 - Rebroadcasting: 2
-14:17:37 - Rebroadcasting: 4
+19:45:04 - Got message [ID: 0][SOURCE: 2][2->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:04 - Rebroadcasting: 1
+19:45:04 - Rebroadcasting: 2
+19:45:04 - Rebroadcasting: 4
 
-14:17:37 - Sending message [ID: 0][SOURCE: 2][3->1][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
-14:17:37 - Sending message [ID: 0][SOURCE: 2][3->2][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
-14:17:38 - Got message [ID: 0][SOURCE: 2][1->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
-14:17:38 - Already had this. Rejecting.
+19:45:05 - Sending message [ID: 0][SOURCE: 2][3->1][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:05 - Sending message [ID: 0][SOURCE: 2][3->4][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:05 - Sending message [ID: 0][SOURCE: 2][3->2][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:06 - Got message [ID: 0][SOURCE: 2][4->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:06 - Already had this. Rejecting.
 
-14:17:38 - Sending message [ID: 0][SOURCE: 2][3->4][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
-14:17:39 - Got message [ID: 0][SOURCE: 2][4->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
-14:17:39 - Already had this. Rejecting.
+19:45:06 - Got message [ID: 0][SOURCE: 2][1->3][BODY: c][TYPE: BROADCAST] {0=1, 1=1, 2=0, 3=0, 4=0}
+19:45:06 - Already had this. Rejecting.
 
 
-14:17:44 - My info: [3|localhost:1400]
-14:17:44 - My neighbours ID's: 1 2 4 
+19:45:11 - My info: [3|localhost:1400]
+19:45:11 - My neighbours ID's: 1 2 4 
 
-14:17:44 - Currently committed messages:
-14:17:44 - Message 0: BROADCAST:a from 0
-14:17:44 - Message 1: BROADCAST:b from 1
-14:17:44 - Message 2: BROADCAST:c from 2
+19:45:11 - Currently committed messages:
+19:45:11 - Message 0: BROADCAST:a from 0
+19:45:11 - Message 1: BROADCAST:b from 1
+19:45:11 - Message 2: BROADCAST:c from 2
 
 Vector clock: {0=1, 1=1, 2=1, 3=0, 4=0}
 
 
 Balance: 1000
 
-14:17:44 - Stopping...
+19:45:11 - Stopping...
